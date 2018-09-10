@@ -644,6 +644,7 @@ function (_Component) {
       })), external__react__default.a.createElement(external__floating_label_react__default.a, {
         type: "email",
         placeholder: "Email",
+        name: "email",
         required: true,
         styles: {
           floating: _objectSpread({}, external__floating_label_react_["floatingStyles"], {
@@ -663,6 +664,7 @@ function (_Component) {
       }), external__react__default.a.createElement(external__floating_label_react__default.a, {
         type: "text",
         placeholder: "Favorite Halifax hangout spot",
+        name: "hangout",
         required: true,
         styles: {
           floating: _objectSpread({}, external__floating_label_react_["floatingStyles"], {
@@ -682,6 +684,7 @@ function (_Component) {
       }), external__react__default.a.createElement(external__floating_label_react__default.a, {
         type: "text",
         placeholder: "What are you working on? (AirBnB for pets, a queso truck, etc)",
+        name: "message",
         required: true,
         element: "textarea",
         rows: "5",

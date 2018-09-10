@@ -50,6 +50,14 @@ export default class MyDocument extends Document {
         <body style={{ margin: 0, padding: 0, fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'}}>
           <Main />
           <NextScript />
+          <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+            <input type="text" hidden name="bot-field" />
+            <input type="text" name="fname" />
+            <input type="text" name="lname" />
+            <input type="email" name="email" />
+            <input type="text" name="hangout" />
+            <textarea name="message"></textarea>
+          </form>
         </body>
       </html>
     )

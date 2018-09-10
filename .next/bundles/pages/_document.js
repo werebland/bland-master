@@ -6176,7 +6176,59 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 52
         }
-      })));
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("form", {
+        name: "contact",
+        method: "post",
+        "data-netlify": "true",
+        "data-netlify-honeypot": "bot-field",
+        hidden: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
+        type: "text",
+        hidden: true,
+        name: "bot-field",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
+        type: "text",
+        name: "fname",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
+        type: "text",
+        name: "lname",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
+        type: "email",
+        name: "email",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
+        type: "text",
+        name: "hangout",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", {
+        name: "message",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        }
+      }))));
     }
   }], [{
     key: "getInitialProps",

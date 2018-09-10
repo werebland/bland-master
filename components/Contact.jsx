@@ -219,6 +219,7 @@ class Contact extends Component {
             <FloatingLabel
               type="email"
               placeholder="Email"
+              name="email"
               required
               styles={{
                 floating: {
@@ -242,6 +243,7 @@ class Contact extends Component {
             <FloatingLabel
               type="text"
               placeholder="Favorite Halifax hangout spot"
+              name="hangout"
               required
               styles={{
                 floating: {
@@ -265,6 +267,7 @@ class Contact extends Component {
             <FloatingLabel
               type="text"
               placeholder="What are you working on? (AirBnB for pets, a queso truck, etc)"
+              name="message"
               required
               element="textarea"
               rows="5"

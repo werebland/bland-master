@@ -65,6 +65,7 @@ const SectionCard = styled.article`
 
   @media all and (max-width: 770px) {
     height: auto;
+    padding: 24px 0 24px 24px;
   }
 `;
 

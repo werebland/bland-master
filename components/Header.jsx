@@ -14,10 +14,14 @@ const HeaderWrapper = styled.div`
   justify-content: space-between;
   padding: 0 144px 0 72px;
   box-sizing: border-box;
-  z-index: 8;
+  z-index: ${props => props.open === false && '8'};;
 
   @media all and (max-width: 860px) {
     padding: 0 96px 0 24px;
+  }
+
+  @media all and (max-width: 520px) {
+    padding: 0 72px 0 24px;
   }
 `;
 
@@ -125,7 +129,7 @@ const MenuToggleIcon = styled.div`
 `;
 
 const Header = ({handleMenuToggle, open}) => (
-  <HeaderWrapper className="header">
+  <HeaderWrapper className="header" open={open}>
     <Link href="/" prefetch passHref>
       <HeaderLogo className="header__logo" />
     </Link>

@@ -111,7 +111,9 @@ module.exports = require("next/link");
 var HeaderWrapper = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
   displayName: "Header__HeaderWrapper",
   componentId: "sc-1bl1itl-0"
-})(["width:100vw;height:72px;position:absolute;top:0;right:0;left:0;display:flex;align-items:center;justify-content:space-between;padding:0 144px 0 72px;box-sizing:border-box;z-index:8;@media all and (max-width:860px){padding:0 96px 0 24px;}"]);
+})(["width:100vw;height:72px;position:absolute;top:0;right:0;left:0;display:flex;align-items:center;justify-content:space-between;padding:0 144px 0 72px;box-sizing:border-box;z-index:", ";;@media all and (max-width:860px){padding:0 96px 0 24px;}@media all and (max-width:520px){padding:0 72px 0 24px;}"], function (props) {
+  return props.open === false && '8';
+});
 var HeaderLogo = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.a.withConfig({
   displayName: "Header__HeaderLogo",
   componentId: "sc-1bl1itl-1"
@@ -147,7 +149,8 @@ var Header = function Header(_ref) {
   var handleMenuToggle = _ref.handleMenuToggle,
       open = _ref.open;
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(HeaderWrapper, {
-    className: "header"
+    className: "header",
+    open: open
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
     href: "/",
     prefetch: true,
@@ -246,7 +249,7 @@ var SectionContent = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.d
 var SectionCard = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.article.withConfig({
   displayName: "Services__SectionCard",
   componentId: "sc-1v7dk2-2"
-})(["width:360px;height:100%;background:#fff;box-shadow:0 2px 16px -2px rgba(159,159,159,0.32);z-index:8;padding:24px;box-sizing:border-box;@media all and (max-width:770px){height:auto;}"]);
+})(["width:360px;height:100%;background:#fff;box-shadow:0 2px 16px -2px rgba(159,159,159,0.32);z-index:8;padding:24px;box-sizing:border-box;@media all and (max-width:770px){height:auto;padding:24px 0 24px 24px;}"]);
 var SectionTitle = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.h3.withConfig({
   displayName: "Services__SectionTitle",
   componentId: "sc-1v7dk2-3"
@@ -415,6 +418,10 @@ var external__styled_components__default = /*#__PURE__*/__webpack_require__.n(ex
 var link_ = __webpack_require__(3);
 var link__default = /*#__PURE__*/__webpack_require__.n(link_);
 
+// EXTERNAL MODULE: external "react-responsive"
+var external__react_responsive_ = __webpack_require__(13);
+var external__react_responsive__default = /*#__PURE__*/__webpack_require__.n(external__react_responsive_);
+
 // CONCATENATED MODULE: ./components/Hero.jsx
 function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
 
@@ -506,7 +513,7 @@ var Why_Why = function Why(_ref) {
 var Menu = __webpack_require__(5);
 
 // EXTERNAL MODULE: external "floating-label-react"
-var external__floating_label_react_ = __webpack_require__(13);
+var external__floating_label_react_ = __webpack_require__(14);
 var external__floating_label_react__default = /*#__PURE__*/__webpack_require__.n(external__floating_label_react_);
 
 // CONCATENATED MODULE: ./components/Contact.jsx
@@ -579,12 +586,22 @@ function (_Component) {
       }, external__react__default.a.createElement(ContactHeader, {
         className: "contact__header"
       }, "Let us buy you a beer"), external__react__default.a.createElement(ContactForm, {
+        name: "contact",
         className: "contact__form",
-        netlify: true,
-        method: "POST"
+        method: "post",
+        "data-netlify": "true",
+        "data-netlify-honeypot": "bot-field"
       }, external__react__default.a.createElement(ContactFormRow, {
         className: "contact__form--row"
-      }, external__react__default.a.createElement(external__floating_label_react__default.a, {
+      }, external__react__default.a.createElement("input", {
+        type: "hidden",
+        name: "form-name",
+        value: "contact"
+      }), external__react__default.a.createElement("input", {
+        type: "text",
+        name: "bot-field",
+        hidden: true
+      }), external__react__default.a.createElement(external__floating_label_react__default.a, {
         type: "text",
         name: "fname",
         placeholder: "First name",
@@ -594,7 +611,14 @@ function (_Component) {
             color: '#9f9f9f'
           }),
           focus: _objectSpread({}, external__floating_label_react_["focusStyles"], {
-            borderColor: '#9f9f9f'
+            borderColor: '#0f0f0f'
+          }),
+          input: _objectSpread({}, external__floating_label_react_["inputStyles"], {
+            borderBottomColor: '#9f9f9f',
+            width: '100%'
+          }),
+          label: _objectSpread({}, external__floating_label_react_["labelStyles"], {
+            color: '#9f9f9f'
           })
         }
       }), external__react__default.a.createElement(external__floating_label_react__default.a, {
@@ -607,7 +631,14 @@ function (_Component) {
             color: '#9f9f9f'
           }),
           focus: _objectSpread({}, external__floating_label_react_["focusStyles"], {
-            borderColor: '#9f9f9f'
+            borderColor: '#0f0f0f'
+          }),
+          input: _objectSpread({}, external__floating_label_react_["inputStyles"], {
+            borderBottomColor: '#9f9f9f',
+            width: '100%'
+          }),
+          label: _objectSpread({}, external__floating_label_react_["labelStyles"], {
+            color: '#9f9f9f'
           })
         }
       })), external__react__default.a.createElement(external__floating_label_react__default.a, {
@@ -619,7 +650,14 @@ function (_Component) {
             color: '#9f9f9f'
           }),
           focus: _objectSpread({}, external__floating_label_react_["focusStyles"], {
-            borderColor: '#9f9f9f'
+            borderColor: '#0f0f0f'
+          }),
+          input: _objectSpread({}, external__floating_label_react_["inputStyles"], {
+            borderBottomColor: '#9f9f9f',
+            width: '100%'
+          }),
+          label: _objectSpread({}, external__floating_label_react_["labelStyles"], {
+            color: '#9f9f9f'
           })
         }
       }), external__react__default.a.createElement(external__floating_label_react__default.a, {
@@ -631,7 +669,14 @@ function (_Component) {
             color: '#9f9f9f'
           }),
           focus: _objectSpread({}, external__floating_label_react_["focusStyles"], {
-            borderColor: '#9f9f9f'
+            borderColor: '#0f0f0f'
+          }),
+          input: _objectSpread({}, external__floating_label_react_["inputStyles"], {
+            borderBottomColor: '#9f9f9f',
+            width: '100%'
+          }),
+          label: _objectSpread({}, external__floating_label_react_["labelStyles"], {
+            color: '#9f9f9f'
           })
         }
       }), external__react__default.a.createElement(external__floating_label_react__default.a, {
@@ -645,7 +690,14 @@ function (_Component) {
             color: '#9f9f9f'
           }),
           focus: _objectSpread({}, external__floating_label_react_["focusStyles"], {
-            borderColor: '#9f9f9f'
+            borderColor: '#0f0f0f'
+          }),
+          input: _objectSpread({}, external__floating_label_react_["inputStyles"], {
+            borderBottomColor: '#9f9f9f',
+            width: '100%'
+          }),
+          label: _objectSpread({}, external__floating_label_react_["labelStyles"], {
+            color: '#9f9f9f'
           })
         }
       }), external__react__default.a.createElement(StyledSubmitWrapper, null, external__react__default.a.createElement(StyledSubmit, {
@@ -676,6 +728,7 @@ function pages__possibleConstructorReturn(self, call) { if (call && (pages__type
 function pages__assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function pages__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -734,7 +787,9 @@ function (_Component) {
           });
         },
         open: this.state.menuVisible
-      }), external__react__default.a.createElement(components_Contact, null), external__react__default.a.createElement(components_Hero, null), external__react__default.a.createElement(Floaty, {
+      }), external__react__default.a.createElement(external__react_responsive__default.a, {
+        query: "(min-width: 1160px)"
+      }, external__react__default.a.createElement(components_Contact, null)), external__react__default.a.createElement(components_Hero, null), external__react__default.a.createElement(Floaty, {
         className: "about"
       }, external__react__default.a.createElement(FloatyContent, {
         className: "about__content"
@@ -755,6 +810,12 @@ function (_Component) {
 
 /***/ }),
 /* 13 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-responsive");
+
+/***/ }),
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = require("floating-label-react");

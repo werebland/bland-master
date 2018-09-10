@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import Link from 'next/link'
+import MediaQuery from 'react-responsive';
 import Hero from '../components/Hero'
 import Header from '../components/Header'
 import Why from '../components/Why'
@@ -98,7 +99,9 @@ class Index extends Component {
       <PageWrapper>
         <Menu open={this.state.menuVisible}/>
         <Header handleMenuToggle={() => this.setState({ menuVisible: !this.state.menuVisible})} open={this.state.menuVisible}/>
-        <Contact />
+        <MediaQuery query="(min-width: 1160px)">
+          <Contact />
+        </MediaQuery>
         <Hero />
         <Floaty className="about">
           <FloatyContent className="about__content">

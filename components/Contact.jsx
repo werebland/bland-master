@@ -161,8 +161,10 @@ class Contact extends Component {
         <ContactHeader className="contact__header">
           Let us buy you a beer
         </ContactHeader>
-        <ContactForm className="contact__form" netlify method="POST">
+        <ContactForm name="contact" className="contact__form" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <ContactFormRow className="contact__form--row">
+              <input type="hidden" name="form-name" value="contact" />
+              <input type="text" name="bot-field" hidden />
               <FloatingLabel
                 type="text"
                 name="fname"
@@ -175,8 +177,17 @@ class Contact extends Component {
                   },
                   focus: {
                     ...focusStyles,
-                    borderColor: '#9f9f9f'
-                  }
+                    borderColor: '#0f0f0f'
+                  },
+                  input: {
+                    ...inputStyles,
+                    borderBottomColor: '#9f9f9f',
+                    width: '100%'
+                  },
+                  label: {
+                    ...labelStyles,
+                    color: '#9f9f9f'
+                  },
                 }}
               />
               <FloatingLabel
@@ -191,8 +202,17 @@ class Contact extends Component {
                   },
                   focus: {
                     ...focusStyles,
-                    borderColor: '#9f9f9f'
-                  }
+                    borderColor: '#0f0f0f'
+                  },
+                  input: {
+                    ...inputStyles,
+                    borderBottomColor: '#9f9f9f',
+                    width: '100%'
+                  },
+                  label: {
+                    ...labelStyles,
+                    color: '#9f9f9f'
+                  },
                 }}
               />
             </ContactFormRow>
@@ -207,8 +227,17 @@ class Contact extends Component {
                 },
                 focus: {
                   ...focusStyles,
-                  borderColor: '#9f9f9f'
-                }
+                  borderColor: '#0f0f0f'
+                },
+                input: {
+                  ...inputStyles,
+                  borderBottomColor: '#9f9f9f',
+                  width: '100%'
+                },
+                label: {
+                  ...labelStyles,
+                  color: '#9f9f9f'
+                },
               }}/>
             <FloatingLabel
               type="text"
@@ -221,8 +250,17 @@ class Contact extends Component {
                 },
                 focus: {
                   ...focusStyles,
-                  borderColor: '#9f9f9f'
-                }
+                  borderColor: '#0f0f0f'
+                },
+                input: {
+                  ...inputStyles,
+                  borderBottomColor: '#9f9f9f',
+                  width: '100%'
+                },
+                label: {
+                  ...labelStyles,
+                  color: '#9f9f9f'
+                },
               }}/>
             <FloatingLabel
               type="text"
@@ -237,8 +275,17 @@ class Contact extends Component {
                 },
                 focus: {
                   ...focusStyles,
-                  borderColor: '#9f9f9f'
-                }
+                  borderColor: '#0f0f0f'
+                },
+                input: {
+                  ...inputStyles,
+                  borderBottomColor: '#9f9f9f',
+                  width: '100%'
+                },
+                label: {
+                  ...labelStyles,
+                  color: '#9f9f9f'
+                },
               }}/>
           <StyledSubmitWrapper>
             <StyledSubmit type="submit" value="Submit"/>

@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 14);
+/******/ 	return __webpack_require__(__webpack_require__.s = 15);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -111,7 +111,9 @@ module.exports = require("next/link");
 var HeaderWrapper = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
   displayName: "Header__HeaderWrapper",
   componentId: "sc-1bl1itl-0"
-})(["width:100vw;height:72px;position:absolute;top:0;right:0;left:0;display:flex;align-items:center;justify-content:space-between;padding:0 144px 0 72px;box-sizing:border-box;z-index:8;@media all and (max-width:860px){padding:0 96px 0 24px;}"]);
+})(["width:100vw;height:72px;position:absolute;top:0;right:0;left:0;display:flex;align-items:center;justify-content:space-between;padding:0 144px 0 72px;box-sizing:border-box;z-index:", ";;@media all and (max-width:860px){padding:0 96px 0 24px;}@media all and (max-width:520px){padding:0 72px 0 24px;}"], function (props) {
+  return props.open === false && '8';
+});
 var HeaderLogo = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.a.withConfig({
   displayName: "Header__HeaderLogo",
   componentId: "sc-1bl1itl-1"
@@ -147,7 +149,8 @@ var Header = function Header(_ref) {
   var handleMenuToggle = _ref.handleMenuToggle,
       open = _ref.open;
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(HeaderWrapper, {
-    className: "header"
+    className: "header",
+    open: open
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
     href: "/",
     prefetch: true,
@@ -246,7 +249,7 @@ var SectionContent = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.d
 var SectionCard = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.article.withConfig({
   displayName: "Services__SectionCard",
   componentId: "sc-1v7dk2-2"
-})(["width:360px;height:100%;background:#fff;box-shadow:0 2px 16px -2px rgba(159,159,159,0.32);z-index:8;padding:24px;box-sizing:border-box;@media all and (max-width:770px){height:auto;}"]);
+})(["width:360px;height:100%;background:#fff;box-shadow:0 2px 16px -2px rgba(159,159,159,0.32);z-index:8;padding:24px;box-sizing:border-box;@media all and (max-width:770px){height:auto;padding:24px 0 24px 24px;}"]);
 var SectionTitle = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.h3.withConfig({
   displayName: "Services__SectionTitle",
   componentId: "sc-1v7dk2-3"
@@ -393,14 +396,15 @@ function (_Component) {
 /* 11 */,
 /* 12 */,
 /* 13 */,
-/* 14 */
+/* 14 */,
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(15);
+module.exports = __webpack_require__(16);
 
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -412,7 +416,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Header__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Menu__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Services__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_head__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_head__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_next_head__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -482,7 +486,7 @@ function (_Component) {
 /* harmony default export */ __webpack_exports__["default"] = (ServicesPage);
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");

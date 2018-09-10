@@ -84,7 +84,7 @@ const ContactFormFieldset = styled.fieldset`
   border: 0;
 `;
 
-const StyledSubmit = styled.input`
+const StyledSubmitWrapper = styled.div`
   width: 100%;
   height: 56px;
   display: flex;
@@ -109,7 +109,7 @@ const StyledSubmit = styled.input`
     left: 0;
     top: 0;
     bottom: 0;
-    background: #fff;
+    background: #9f9f9f;
     z-index: -1;
   }
 
@@ -129,7 +129,31 @@ const StyledSubmit = styled.input`
   &:hover::after {
     width: 0;
   }
+`;
 
+const StyledSubmit = styled.input`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  appearance: none;
+  border: 0;
+  background-image: none;
+  background: transparent;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 400;
+  cursor: pointer;
+
+  &:hover {
+    color: #0f0f0f;
+  }
 `;
 
 class Contact extends Component {
@@ -146,6 +170,7 @@ class Contact extends Component {
                 type="text"
                 name="fname"
                 placeholder="First name"
+                required
                 styles={{
                   floating: {
                     ...floatingStyles,
@@ -161,6 +186,7 @@ class Contact extends Component {
                 type="text"
                 name="lname"
                 placeholder="Last name"
+                required
                 styles={{
                   floating: {
                     ...floatingStyles,
@@ -176,6 +202,7 @@ class Contact extends Component {
             <FloatingLabel
               type="email"
               placeholder="Email"
+              required
               styles={{
                 floating: {
                   ...floatingStyles,
@@ -187,8 +214,9 @@ class Contact extends Component {
                 }
               }}/>
             <FloatingLabel
-              type="select"
-              placeholder="Favorite hangout spot"
+              type="text"
+              placeholder="Favorite Halifax hangout spot"
+              required
               styles={{
                 floating: {
                   ...floatingStyles,
@@ -202,6 +230,7 @@ class Contact extends Component {
             <FloatingLabel
               type="text"
               placeholder="What are you working on? (AirBnB for pets, a queso truck, etc)"
+              required
               element="textarea"
               rows="5"
               styles={{
@@ -214,7 +243,9 @@ class Contact extends Component {
                   borderColor: '#9f9f9f'
                 }
               }}/>
-          <StyledSubmit type="submit" value="Submit" />
+          <StyledSubmitWrapper>
+            <StyledSubmit type="submit" value="Submit"/>
+          </StyledSubmitWrapper>
         </ContactForm>
       </ContactWrapper>
     );

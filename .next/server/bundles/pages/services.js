@@ -67,219 +67,10 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./components/Contact.jsx":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__("styled-components");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_styled_components__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_floating_label_react__ = __webpack_require__("floating-label-react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_floating_label_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_floating_label_react__);
-var _jsxFileName = "/Users/Chris/bland-ultra/components/Contact.jsx";
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-var ContactWrapper = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.article.withConfig({
-  displayName: "Contact__ContactWrapper",
-  componentId: "sc-10vz4cd-0"
-})(["width:25vw;min-width:360px;height:auto;position:absolute;right:72px;top:72px;background:#fff;box-shadow:0 2px 16px -2px rgba(159,159,159,0.32);"]);
-var ContactHeader = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.h3.withConfig({
-  displayName: "Contact__ContactHeader",
-  componentId: "sc-10vz4cd-1"
-})(["width:100%;padding:24px 0;background:#0f0f0f;color:#fff;font-size:1.5rem;font-weight:500;margin:0;display:flex;align-items:center;justify-content:center;"]);
-var ContactForm = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.form.withConfig({
-  displayName: "Contact__ContactForm",
-  componentId: "sc-10vz4cd-2"
-})(["width:100%;padding:24px;box-sizing:border-box;display:flex;flex-flow:column nowrap;& label input{width:100%;margin-bottom:8px;}& label textarea{width:100%;height:120px;margin-bottom:24px;}& input:-webkit-autofill,& input:-webkit-autofill:hover,& input:-webkit-autofill:focus & textarea:-webkit-autofill,& textarea:-webkit-autofill:hover & textarea:-webkit-autofill:focus,& select:-webkit-autofill,& select:-webkit-autofill:hover,& select:-webkit-autofill:focus{-webkit-box-shadow:0 0 0px 1000px #fff inset;}"]);
-var ContactFormRow = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
-  displayName: "Contact__ContactFormRow",
-  componentId: "sc-10vz4cd-3"
-})(["width:100%;display:flex;flex-flow:row nowrap;justify-content:space-between;& label{width:calc(50% - 12px);}& label input{width:100%;}& label textarea{width:100%;}"]);
-var ContactFormFieldset = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.fieldset.withConfig({
-  displayName: "Contact__ContactFormFieldset",
-  componentId: "sc-10vz4cd-4"
-})(["border:0;"]);
-var StyledSubmitWrapper = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
-  displayName: "Contact__StyledSubmitWrapper",
-  componentId: "sc-10vz4cd-5"
-})(["width:100%;height:56px;display:flex;align-items:center;justify-content:center;box-sizing:border-box;appearance:none;color:#0f0f0f;font-size:1.5rem;font-weight:400;position:relative;z-index:1;cursor:pointer;text-decoration:none;position:relative;&::before{content:\"\";height:100%;width:100%;position:absolute;left:0;top:0;bottom:0;background:#9f9f9f;z-index:-1;}&::after{content:\"\";height:100%;width:100%;background:#0f0f0f;position:absolute;left:0;top:0;bottom:0;z-index:-1;transition:0.3s ease-out all;}&:hover::after{width:0;}"]);
-var StyledSubmit = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.input.withConfig({
-  displayName: "Contact__StyledSubmit",
-  componentId: "sc-10vz4cd-6"
-})(["position:absolute;width:100%;height:100%;top:0;right:0;bottom:0;left:0;display:flex;align-items:center;justify-content:center;appearance:none;border:0;background-image:none;background:transparent;color:#fff;font-size:1.25rem;font-weight:400;cursor:pointer;"]);
-
-var Contact =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(Contact, _Component);
-
-  function Contact() {
-    _classCallCheck(this, Contact);
-
-    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
-  }
-
-  _createClass(Contact, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ContactWrapper, {
-        className: "contact",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 160
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ContactHeader, {
-        className: "contact__header",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 161
-        }
-      }, "Let us buy you a beer"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ContactForm, {
-        className: "contact__form",
-        netlify: true,
-        method: "POST",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 164
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ContactFormRow, {
-        className: "contact__form--row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 165
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_floating_label_react___default.a, {
-        type: "text",
-        name: "fname",
-        placeholder: "First name",
-        required: true,
-        styles: {
-          floating: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["floatingStyles"], {
-            color: '#9f9f9f'
-          }),
-          focus: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["focusStyles"], {
-            borderColor: '#9f9f9f'
-          })
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 166
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_floating_label_react___default.a, {
-        type: "text",
-        name: "lname",
-        placeholder: "Last name",
-        required: true,
-        styles: {
-          floating: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["floatingStyles"], {
-            color: '#9f9f9f'
-          }),
-          focus: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["focusStyles"], {
-            borderColor: '#9f9f9f'
-          })
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 182
-        }
-      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_floating_label_react___default.a, {
-        type: "email",
-        placeholder: "Email",
-        required: true,
-        styles: {
-          floating: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["floatingStyles"], {
-            color: '#9f9f9f'
-          }),
-          focus: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["focusStyles"], {
-            borderColor: '#9f9f9f'
-          })
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 199
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_floating_label_react___default.a, {
-        type: "text",
-        placeholder: "Favorite Halifax hangout spot",
-        required: true,
-        styles: {
-          floating: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["floatingStyles"], {
-            color: '#9f9f9f'
-          }),
-          focus: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["focusStyles"], {
-            borderColor: '#9f9f9f'
-          })
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 213
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_floating_label_react___default.a, {
-        type: "text",
-        placeholder: "What are you working on? (AirBnB for pets, a queso truck, etc)",
-        required: true,
-        element: "textarea",
-        rows: "5",
-        styles: {
-          floating: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["floatingStyles"], {
-            color: '#9f9f9f'
-          }),
-          focus: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["focusStyles"], {
-            borderColor: '#9f9f9f'
-          })
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 227
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledSubmitWrapper, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 243
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledSubmit, {
-        type: "submit",
-        value: "Submit",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 244
-        }
-      }))));
-    }
-  }]);
-
-  return Contact;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
-
-/* harmony default export */ __webpack_exports__["a"] = (Contact);
-
-/***/ }),
 
 /***/ "./components/Header.jsx":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -377,78 +168,6 @@ var Header = function Header(_ref) {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Header);
-
-/***/ }),
-
-/***/ "./components/Hero.jsx":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__("styled-components");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_styled_components__);
-var _jsxFileName = "/Users/Chris/bland-ultra/components/Hero.jsx";
-
-function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
-
-
-
-var Section = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.section.withConfig({
-  displayName: "Hero__Section",
-  componentId: "mrxqip-0"
-})(["width:100vw;height:100vh;display:flex;flex-flow:column nowrap;"]);
-var SectionContent = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
-  displayName: "Hero__SectionContent",
-  componentId: "mrxqip-1"
-})(["display:flex;flex:1;width:100%;padding-left:144px;box-sizing:border-box;align-items:center;@media all and (max-width:860px){padding-left:48px}@media all and (max-width:520px){padding-left:24px}"]);
-var SectionTitle = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.h1.withConfig({
-  displayName: "Hero__SectionTitle",
-  componentId: "mrxqip-2"
-})(["font-size:3rem;font-weight:100;color:#9f9f9f;margin:0;& strong{font-weight:500;color:#0f0f0f;display:block;}"]);
-var SectionImage = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
-  displayName: "Hero__SectionImage",
-  componentId: "mrxqip-3"
-})(["display:flex;flex:1;width:100%;background:#9f9f9f;background-image:url(", ");background-size:cover;background-position:center;"], function (props) {
-  return props.image;
-});
-
-var Hero = function Hero(_ref) {
-  _objectDestructuringEmpty(_ref);
-
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Section, {
-    className: "hero",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(SectionContent, {
-    className: "hero__content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(SectionTitle, {
-    className: "hero__content--title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    }
-  }, "Forget the 7 herbs and spices,", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    }
-  }, "we're your secret ingredient"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(SectionImage, {
-    image: "/static/spices.jpg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    }
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (Hero);
 
 /***/ }),
 
@@ -765,84 +484,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./components/Why.jsx":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__("styled-components");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_styled_components__);
-var _jsxFileName = "/Users/Chris/bland-ultra/components/Why.jsx";
-
-function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
-
-
-
-var Section = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.section.withConfig({
-  displayName: "Why__Section",
-  componentId: "e62d7n-0"
-})(["width:100vw;height:100vh;display:flex;flex-flow:row nowrap;align-items:center;padding:72px;box-sizing:border-box;position:relative;@media all and (max-width:860px){padding:72px 48px;}@media all and (max-width:670px){flex-flow:column nowrap;}@media all and (max-width:520px){padding:72px 24px;}"]);
-var SectionCard = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.article.withConfig({
-  displayName: "Why__SectionCard",
-  componentId: "e62d7n-1"
-})(["width:50vw;height:60vh;padding:48px;box-sizing:border-box;background:#FFFFFF;box-shadow:0 2px 16px -2px rgba(159,159,159,0.32);z-index:8;@media all and (max-width:1000px){width:75vw;}@media all and (max-width:670px){width:75vw;height:auto;padding:24px;}"]);
-var SectionTitle = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.h3.withConfig({
-  displayName: "Why__SectionTitle",
-  componentId: "e62d7n-2"
-})(["font-size:2rem;font-weight:500;color:#0f0f0f;margin:0 0 24px 0;"]);
-var SectionCopy = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.p.withConfig({
-  displayName: "Why__SectionCopy",
-  componentId: "e62d7n-3"
-})(["font-size:1.5rem;font-weight:300;color:#9f9f9f;margin:0;padding:0;"]);
-var SectionImage = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
-  displayName: "Why__SectionImage",
-  componentId: "e62d7n-4"
-})(["width:66vw;height:calc(100vh - 144px);background:#9f9f9f;display:flex;position:absolute;top:72px;right:72px;background-image:url(", ");background-size:cover;background-position:center;@media all and (max-width:860px){right:48px;}@media all and (max-width:670px){width:100vw;right:0;left:0;top:24px;}"], function (props) {
-  return props.image;
-});
-
-var Why = function Why(_ref) {
-  _objectDestructuringEmpty(_ref);
-
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Section, {
-    className: "why",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(SectionCard, {
-    className: "why__card",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(SectionTitle, {
-    className: "why__card--title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    }
-  }, "Why Bland?"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(SectionCopy, {
-    className: "why__card--copy",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    }
-  }, "By merging disruptive technology with industry standards, we are able to create a one-of-a-kind presence for your brand. From social media management and content creation to a full-blown branding and identity overhaul, we have the power, expertise, and drive to bring your vision to life. From startups to established business, we\u2019re ready for the opportunity to embrace your big idea.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(SectionImage, {
-    image: "/static/speaker.jpg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96
-    }
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (Why);
-
-/***/ }),
-
-/***/ "./pages/index.js":
+/***/ "./pages/services.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -851,13 +493,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__("styled-components");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_styled_components__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Hero__ = __webpack_require__("./components/Hero.jsx");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Header__ = __webpack_require__("./components/Header.jsx");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Why__ = __webpack_require__("./components/Why.jsx");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_Menu__ = __webpack_require__("./components/Menu.jsx");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_Contact__ = __webpack_require__("./components/Contact.jsx");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_Services__ = __webpack_require__("./components/Services.jsx");
-var _jsxFileName = "/Users/Chris/bland-ultra/pages/index.js";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Header__ = __webpack_require__("./components/Header.jsx");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Menu__ = __webpack_require__("./components/Menu.jsx");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Services__ = __webpack_require__("./components/Services.jsx");
+var _jsxFileName = "/Users/Chris/bland-ultra/pages/services.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -878,60 +517,46 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-
-
-
 var PageWrapper = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
-  displayName: "pages__PageWrapper",
-  componentId: "sc-1wbo52z-0"
+  displayName: "services__PageWrapper",
+  componentId: "zkuara-0"
 })(["width:100%;height:100%;padding:0;margin:0;"]);
-var Floaty = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
-  displayName: "pages__Floaty",
-  componentId: "sc-1wbo52z-1"
-})(["width:40vw;height:auto;margin:24px auto;padding:24px;box-sizing:border-box;background:#0f0f0f;@media all and (max-width:860px){width:calc(100vw - 96px);}@media all and (max-width:520px){width:calc(100vw - 48px);}"]);
-var FloatyContent = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.p.withConfig({
-  displayName: "pages__FloatyContent",
-  componentId: "sc-1wbo52z-2"
-})(["font-size:1.5rem;font-weight:500;color:#fff;margin:0 0 24px 0;padding:0;"]);
-var FloatyButton = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.a.withConfig({
-  displayName: "pages__FloatyButton",
-  componentId: "sc-1wbo52z-3"
-})(["width:100%;height:64px;display:flex;align-items:center;justify-content:center;color:#0f0f0f;font-size:1.5rem;font-weight:400;position:relative;z-index:1;cursor:pointer;text-decoration:none;&::before{content:\"\";height:100%;width:100%;position:absolute;left:0;top:0;bottom:0;background:#9f9f9f;z-index:-1;}&::after{content:\"\";height:100%;width:100%;background:#fff;position:absolute;left:0;top:0;bottom:0;z-index:-1;transition:0.3s ease-out all;}&:hover::after{width:0;}"]);
 
-var Index =
+var ServicesPage =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(Index, _Component);
+  _inherits(ServicesPage, _Component);
 
-  function Index(props) {
+  function ServicesPage(props) {
     var _this;
 
-    _classCallCheck(this, Index);
+    _classCallCheck(this, ServicesPage);
 
-    _this = _possibleConstructorReturn(this, (Index.__proto__ || Object.getPrototypeOf(Index)).call(this, props));
+    _this = _possibleConstructorReturn(this, (ServicesPage.__proto__ || Object.getPrototypeOf(ServicesPage)).call(this, props));
     _this.state = {
       menuVisible: false
     };
     return _this;
   }
 
-  _createClass(Index, [{
+  _createClass(ServicesPage, [{
     key: "render",
     value: function render() {
       var _this2 = this;
 
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PageWrapper, {
+        className: "pageWrapper__services",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 25
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_Menu__["a" /* default */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Menu__["a" /* default */], {
         open: this.state.menuVisible,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 26
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Header__["a" /* default */], {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Header__["a" /* default */], {
         handleMenuToggle: function handleMenuToggle() {
           return _this2.setState({
             menuVisible: !_this2.state.menuVisible
@@ -940,70 +565,29 @@ function (_Component) {
         open: this.state.menuVisible,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 27
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_Contact__["a" /* default */], {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Services__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Hero__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Floaty, {
-        className: "about",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(FloatyContent, {
-        className: "about__content",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103
-        }
-      }, "Bland is an agile marketing agency devoted to first impressions with a focus on the food and beverage industry. We sweat the details of content and identity to create tangible and expansive presences that capture customers and lead to real-world growth."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(FloatyButton, {
-        href: "",
-        className: "about__button",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 106
-        }
-      }, "See what we can do")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Why__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 110
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_Services__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 28
         }
       }));
     }
   }]);
 
-  return Index;
+  return ServicesPage;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (ServicesPage);
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/index.js");
+module.exports = __webpack_require__("./pages/services.js");
 
-
-/***/ }),
-
-/***/ "floating-label-react":
-/***/ (function(module, exports) {
-
-module.exports = require("floating-label-react");
 
 /***/ }),
 
@@ -1029,4 +613,4 @@ module.exports = require("styled-components");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=services.js.map

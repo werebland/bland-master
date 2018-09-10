@@ -5226,7 +5226,7 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 16
         }
-      }, "Bland | Creating tasteful presences"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+      }, "Bland | A Halifax Agency Creating Tasteful Presences"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "apple-touch-icon",
         sizes: "180x180",
         href: "/static/apple-touch-icon.png",
@@ -5280,6 +5280,69 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 23
         }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        property: "og:type",
+        content: "business.business",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        property: "og:title",
+        content: "Bland Marketing Agency",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        property: "og:url",
+        content: "https://werebland.com",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        property: "og:image",
+        content: "https://werebland.com/static/bland__square.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        property: "business:contact_data:street_address",
+        content: "22A Sunnybrae Ave",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        property: "business:contact_data:locality",
+        content: "Halifax",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        property: "business:contact_data:region",
+        content: "Nova Scotia",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        property: "business:contact_data:postal_code",
+        content: "B3N 2G1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        property: "business:contact_data:country_name",
+        content: "Canada",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        }
       }), this.props.styleTags), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
         style: {
           margin: 0,
@@ -5288,17 +5351,17 @@ function (_Document) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 35
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 36
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 37
         }
       })));
     }

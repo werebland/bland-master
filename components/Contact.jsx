@@ -45,7 +45,8 @@ const ContactForm = styled.form`
 
   & label textarea {
     width: 100%;
-    margin-bottom: 8px;
+    height: 120px;
+    margin-bottom: 24px;
   }
 
   & input:-webkit-autofill,
@@ -150,10 +151,6 @@ const StyledSubmit = styled.input`
   font-size: 1.25rem;
   font-weight: 400;
   cursor: pointer;
-
-  &:hover {
-    color: #0f0f0f;
-  }
 `;
 
 class Contact extends Component {

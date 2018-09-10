@@ -12,6 +12,7 @@
     "next": "6.1.2",
     "react": "16.5.0",
     "react-dom": "16.5.0",
+    "react-google-structured-data": "^3.0.0",
     "react-pose": "^3.3.0",
     "styled-components": "^2.1.0"
   },

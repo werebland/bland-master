@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import Link from 'next/link'
 import Hero from '../components/Hero'
 import Header from '../components/Header'
 import Why from '../components/Why'
@@ -103,9 +104,11 @@ class Index extends Component {
           <FloatyContent className="about__content">
             Bland is an agile marketing agency devoted to first impressions with a focus on the food and beverage industry. We sweat the details of content and identity to create tangible and expansive presences that capture customers and lead to real-world growth.
           </FloatyContent>
-          <FloatyButton href="" className="about__button">
-            See what we can do
-          </FloatyButton>
+          <Link href="/services" prefetch passHref>
+            <FloatyButton  className="about__button">
+              See what we can do
+            </FloatyButton>
+          </Link>
         </Floaty>
         <Why />
         <Services />

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'next/link'
 
 const HeaderWrapper = styled.div`
   width: 100vw;
@@ -13,18 +14,20 @@ const HeaderWrapper = styled.div`
   justify-content: space-between;
   padding: 0 144px 0 72px;
   box-sizing: border-box;
+  z-index: 8;
 
   @media all and (max-width: 860px) {
     padding: 0 96px 0 24px;
   }
 `;
 
-const HeaderLogo = styled.div`
+const HeaderLogo = styled.a`
   width: 61px;
   height: 19px;
   background-image: url('/static/bland.svg');
   background-size: cover;
   background-position: center;
+  cursor: pointer;
 `;
 
 const HeaderContact = styled.a`
@@ -38,6 +41,7 @@ const HeaderContact = styled.a`
   align-items: center;
   justify-content: center;
   position: relative;
+  cursor: pointer;
 
   &::before {
     content: "";
@@ -122,10 +126,14 @@ const MenuToggleIcon = styled.div`
 
 const Header = ({handleMenuToggle, open}) => (
   <HeaderWrapper className="header">
-    <HeaderLogo className="header__logo" />
-    <HeaderContact href="" className="header__contact">
-      Contact
-    </HeaderContact>
+    <Link href="/" prefetch passHref>
+      <HeaderLogo className="header__logo" />
+    </Link>
+    <Link href="/contact" prefetch passHref>
+      <HeaderContact className="header__contact">
+        Contact
+      </HeaderContact>
+    </Link>
     <MenuToggle>
       <MenuToggleIcon open={open} onClick={() => handleMenuToggle()}>
         <span></span>

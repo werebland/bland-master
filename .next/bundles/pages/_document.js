@@ -5990,6 +5990,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+var GA_TRACKING_ID = "UA-125819564-1";
 
 var MyDocument =
 /*#__PURE__*/
@@ -6008,17 +6009,32 @@ function (_Document) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 17
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 18
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+        async: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=".concat(GA_TRACKING_ID),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 19
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+        dangerouslySetInnerHTML: {
+          __html: "\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', '".concat(GA_TRACKING_ID, "');\n          ")
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
         }
       }, "Bland | A Halifax Agency Creating Tasteful Presences"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "apple-touch-icon",
@@ -6026,7 +6042,7 @@ function (_Document) {
         href: "/static/apple-touch-icon.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 33
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "icon",
@@ -6035,7 +6051,7 @@ function (_Document) {
         href: "/static/favicon-32x32.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 34
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "icon",
@@ -6044,105 +6060,105 @@ function (_Document) {
         href: "/static/favicon-16x16.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 35
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "manifest",
         href: "/static/site.webmanifest",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 36
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "msapplication-TileColor",
         content: "#da532c",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 37
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "theme-color",
         content: "#ffffff",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 38
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "viewport",
         content: "width=device-width, initial-scale=1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 39
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:type",
         content: "business.business",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 40
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:title",
         content: "Bland Marketing Agency",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 41
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:url",
-        content: "https://bland.marketing",
+        content: "https://werebland.com",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 42
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:image",
-        content: "https://bland.marketing/static/bland__square.png",
+        content: "https://werebland.com/static/bland__square.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 43
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:street_address",
         content: "22A Sunnybrae Ave",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 44
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:locality",
         content: "Halifax",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 45
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:region",
         content: "Nova Scotia",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 46
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:postal_code",
         content: "B3N 2G1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 47
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:country_name",
         content: "Canada",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 48
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "description",
         content: "A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer.",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 49
         }
       }), this.props.styleTags, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_google_structured_data___default.a, {
         type: "Organization",
@@ -6150,11 +6166,11 @@ function (_Document) {
           url: 'https://werebland.com',
           logo: "https://werebland.com/static/bland__square.png",
           name: 'Bland Marketing Agency',
-          sameAs: ['https://www.facebook.com/example/', 'https://www.linkedin.com/company/werebland/', 'https://www.instagram.com/werebland/']
+          sameAs: ['https://www.facebook.com/Bland-2218276858408891/', 'https://www.linkedin.com/company/werebland/', 'https://www.instagram.com/werebland/']
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 51
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
         style: {
@@ -6164,17 +6180,17 @@ function (_Document) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 65
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 66
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 67
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("form", {
         name: "contact",
@@ -6184,7 +6200,7 @@ function (_Document) {
         hidden: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 68
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
@@ -6192,41 +6208,41 @@ function (_Document) {
         name: "bot-field",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 69
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
         name: "fname",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 70
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
         name: "lname",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 71
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "email",
         name: "email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 72
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
         name: "hangout",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 73
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", {
         name: "message",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 74
         }
       }))));
     }
@@ -6240,7 +6256,7 @@ function (_Document) {
           return sheet.collectStyles(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(App, _extends({}, props, {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 8
+              lineNumber: 10
             }
           })));
         };

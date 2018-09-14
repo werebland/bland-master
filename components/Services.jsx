@@ -59,7 +59,7 @@ const SectionCard = styled.article`
   height: 100%;
   background: #fff;
   box-shadow: 0 2px 16px -2px rgba(159,159,159,0.32);
-  z-index: 8;
+  z-index: 4;
   padding: 24px;
   box-sizing: border-box;
 

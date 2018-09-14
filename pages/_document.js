@@ -2,6 +2,8 @@ import Document, { Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 import StructuredData from 'react-google-structured-data'
 
+const GA_TRACKING_ID = "UA-125819564-1"
+
 export default class MyDocument extends Document {
   static getInitialProps ({ renderPage }) {
     const sheet = new ServerStyleSheet()
@@ -14,6 +16,19 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}');
+          `}}
+          />
           <title>Bland | A Halifax Agency Creating Tasteful Presences</title>
           <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png"/>
           <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png"/>
@@ -24,8 +39,8 @@ export default class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta property="og:type" content="business.business" />
           <meta property="og:title" content="Bland Marketing Agency" />
-          <meta property="og:url" content="https://bland.marketing" />
-          <meta property="og:image" content="https://bland.marketing/static/bland__square.png" />
+          <meta property="og:url" content="https://werebland.com" />
+          <meta property="og:image" content="https://werebland.com/static/bland__square.png" />
           <meta property="business:contact_data:street_address" content="22A Sunnybrae Ave" />
           <meta property="business:contact_data:locality" content="Halifax" />
           <meta property="business:contact_data:region" content="Nova Scotia" />
@@ -40,7 +55,7 @@ export default class MyDocument extends Document {
                   logo: `https://werebland.com/static/bland__square.png`,
                   name: 'Bland Marketing Agency',
                   sameAs: [
-                      'https://www.facebook.com/example/',
+                      'https://www.facebook.com/Bland-2218276858408891/',
                       'https://www.linkedin.com/company/werebland/',
                       'https://www.instagram.com/werebland/',
                   ],

@@ -36,6 +36,10 @@ const SectionTitle = styled.h1`
     color: #0f0f0f;
     display: block;
   }
+
+  @media all and (max-width: 520px) {
+    font-size: 2.5rem;
+  }
 `;
 
 const SectionImage = styled.div`

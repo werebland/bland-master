@@ -12,7 +12,7 @@ const ContactWrapper = styled.article`
   min-width: 360px;
   height: auto;
   position: absolute;
-  right: 72px;
+  left: 72px;
   top: 72px;
   background: #fff;
   box-shadow: 0 2px 16px -2px rgba(159,159,159,0.32);

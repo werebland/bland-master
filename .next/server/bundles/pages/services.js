@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 15);
+/******/ 	return __webpack_require__(__webpack_require__.s = 19);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -95,7 +95,15 @@ module.exports = require("react-pose");
 module.exports = require("next/link");
 
 /***/ }),
-/* 4 */
+/* 4 */,
+/* 5 */,
+/* 6 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
+
+/***/ }),
+/* 7 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -174,7 +182,7 @@ var Header = function Header(_ref) {
 /* harmony default export */ __webpack_exports__["a"] = (Header);
 
 /***/ }),
-/* 5 */
+/* 8 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -211,7 +219,7 @@ var Menu = function Menu(_ref) {
 /* harmony default export */ __webpack_exports__["a"] = (Menu);
 
 /***/ }),
-/* 6 */
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -287,7 +295,7 @@ var ServicesTitle = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.h4
 var ServicesCopy = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.p.withConfig({
   displayName: "Services__ServicesCopy",
   componentId: "sc-1v7dk2-8"
-})(["font-size:1rem;font-weight:300;color:#fff;margin:0;padding:0;"]);
+})(["font-size:1.25rem;font-weight:300;color:#fff;margin:0;padding:0;"]);
 
 var Services =
 /*#__PURE__*/
@@ -321,15 +329,27 @@ function (_Component) {
         className: "services__title"
       }, "Branding & Identity"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesCopy, {
         className: "services__copy"
-      }, "Your brand is who you are and it\u2019s more than just details. It is your personality, the who, what, where, and why. We work with you to create something that we both can be proud of. A brand that wears its identity on its sleeve. Thoughtful and precise, while still being everything you could hope it could be and more.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), "From ideation and logo work, to creating style guides and ensuring brand fidelity, we\u2019re here to make everything go right.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledServicesChanger, {
+      }, "Your brand is who you are and it\u2019s made up of more than just details. It is your personality, the who, what, where, and why. We work with you to create something that we both can be proud of. A brand that wears its identity on its sleeve. Thoughtful and precise, while still being everything you could hope it could be and more.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), "From ideation and logo work, to creating style guides and ensuring brand fidelity, we\u2019re here to make everything go right.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledServicesChanger, {
         pose: this.state.service === "content" ? 'visible' : 'hidden'
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesTitle, {
         className: "services__title"
       }, "Content"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesCopy, {
         className: "services__copy"
-      }, "Your brand is who you are and it\u2019s more than just details. It is your personality, the who, what, where, and why. We work with you to create something that we both can be proud of. A brand that wears its identity on its sleeve. Thoughtful and precise, while still being everything you could hope it could be and more.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), "From ideation and logo work, to creating style guides and ensuring brand fidelity, we\u2019re here to make everything go right."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(SectionCard, {
+      }, "In a foodie world, content is the meat and potatoes. Like a well-finished dish, great content has all the essentials. It begins with mise en place, prepared with a trained and enthusiastic eye, and presented in an approachable but intriguing way.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), "Bland helps you create meaningful content that builds brands. With services from copywriting and public relations to menu consulting, we will always have something valuable to offer.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledServicesChanger, {
+        pose: this.state.service === "social" ? 'visible' : 'hidden'
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesTitle, {
+        className: "services__title"
+      }, "Social Media Management"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesCopy, {
+        className: "services__copy"
+      }, "Does constructing an Instagram post seem more intimidating than preparing a full canard a la presse? Good thing you have Bland by your side to help you tell your influencers from your hashtags. Whether you need a few posts a week to advertise your specials or a complete social strategy, Bland is there to help you acquire customers and grow your brand.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledServicesChanger, {
+        pose: this.state.service === "acquisition" ? 'visible' : 'hidden'
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesTitle, {
+        className: "services__title"
+      }, "Acquisition & Retention"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesCopy, {
+        className: "services__copy"
+      }, "Loyalty is what drives brands. But even the most loyal customers have to start by walking through your doors, and the ground work for that loyalty starts long before that. Bland focuses on helping you make customers for life, creating value in your interactions that result in tangible benefits.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), "From email and SMS campaigns to strategy and consulting, Bland has a solution for you to achieve sustained and impactful growth."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(SectionCard, {
         className: "services__card"
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(SectionTitle, null, "Services"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesItems, {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(SectionTitle, null, "Services at Bland"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesItems, {
         className: "services__items"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesItem, {
         className: "services__items--item",
@@ -357,29 +377,13 @@ function (_Component) {
         }
       }, "Social Media Management"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesItem, {
         className: "services__items--item",
-        active: this.state.service === "retention",
+        active: this.state.service === "acquisition",
         onClick: function onClick() {
           return _this2.setState({
-            service: 'retention'
+            service: 'acquisition'
           });
         }
-      }, "Customer Retention"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesItem, {
-        className: "services__items--item",
-        active: this.state.service === "reputation",
-        onClick: function onClick() {
-          return _this2.setState({
-            service: 'reputation'
-          });
-        }
-      }, "Reputation Management"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesItem, {
-        className: "services__items--item",
-        active: this.state.service === "strategy",
-        onClick: function onClick() {
-          return _this2.setState({
-            service: 'strategy'
-          });
-        }
-      }, "Strategy"))));
+      }, "Acquisition & Retention"))));
     }
   }]);
 
@@ -389,22 +393,23 @@ function (_Component) {
 /* harmony default export */ __webpack_exports__["a"] = (Services);
 
 /***/ }),
-/* 7 */,
-/* 8 */,
-/* 9 */,
 /* 10 */,
 /* 11 */,
 /* 12 */,
 /* 13 */,
 /* 14 */,
-/* 15 */
+/* 15 */,
+/* 16 */,
+/* 17 */,
+/* 18 */,
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(16);
+module.exports = __webpack_require__(20);
 
 
 /***/ }),
-/* 16 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -413,10 +418,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_styled_components__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Header__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Menu__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Services__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_head__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Header__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Menu__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Services__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_head__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_next_head__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -484,12 +489,6 @@ function (_Component) {
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (ServicesPage);
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports) {
-
-module.exports = require("next/head");
 
 /***/ })
 /******/ ]);

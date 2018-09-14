@@ -172,7 +172,7 @@ const ServicesTitle = styled.h4`
 `;
 
 const ServicesCopy = styled.p`
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 300;
   color: #fff;
   margin: 0;
@@ -197,7 +197,7 @@ class Services extends Component {
               Branding & Identity
             </ServicesTitle>
             <ServicesCopy className="services__copy">
-              Your brand is who you are and it’s more than just details. It is your personality, the who, what, where, and why. We work with you to create something that we both can be proud of. A brand that wears its identity on its sleeve. Thoughtful and precise, while still being everything you could hope it could be and more.
+              Your brand is who you are and it’s made up of more than just details. It is your personality, the who, what, where, and why. We work with you to create something that we both can be proud of. A brand that wears its identity on its sleeve. Thoughtful and precise, while still being everything you could hope it could be and more.
               <br/><br/>
               From ideation and logo work, to creating style guides and ensuring brand fidelity, we’re here to make everything go right.
             </ServicesCopy>
@@ -207,15 +207,33 @@ class Services extends Component {
               Content
             </ServicesTitle>
             <ServicesCopy className="services__copy">
-              Your brand is who you are and it’s more than just details. It is your personality, the who, what, where, and why. We work with you to create something that we both can be proud of. A brand that wears its identity on its sleeve. Thoughtful and precise, while still being everything you could hope it could be and more.
+              In a foodie world, content is the meat and potatoes. Like a well-finished dish, great content has all the essentials. It begins with mise en place, prepared with a trained and enthusiastic eye, and presented in an approachable but intriguing way.
               <br/><br/>
-              From ideation and logo work, to creating style guides and ensuring brand fidelity, we’re here to make everything go right.
+              Bland helps you create meaningful content that builds brands. With services from copywriting and public relations to menu consulting, we will always have something valuable to offer.
+            </ServicesCopy>
+          </StyledServicesChanger>
+          <StyledServicesChanger pose={this.state.service === "social" ? 'visible' : 'hidden'}>
+            <ServicesTitle className="services__title">
+              Social Media Management
+            </ServicesTitle>
+            <ServicesCopy className="services__copy">
+              Does constructing an Instagram post seem more intimidating than preparing a full canard a la presse? Good thing you have Bland by your side to help you tell your influencers from your hashtags. Whether you need a few posts a week to advertise your specials or a complete social strategy, Bland is there to help you acquire customers and grow your brand.
+            </ServicesCopy>
+          </StyledServicesChanger>
+          <StyledServicesChanger pose={this.state.service === "acquisition" ? 'visible' : 'hidden'}>
+            <ServicesTitle className="services__title">
+              Acquisition & Retention
+            </ServicesTitle>
+            <ServicesCopy className="services__copy">
+              Loyalty is what drives brands. But even the most loyal customers have to start by walking through your doors, and the ground work for that loyalty starts long before that. Bland focuses on helping you make customers for life, creating value in your interactions that result in tangible benefits.
+              <br/><br/>
+              From email and SMS campaigns to strategy and consulting, Bland has a solution for you to achieve sustained and impactful growth.
             </ServicesCopy>
           </StyledServicesChanger>
         </SectionContent>
         <SectionCard className="services__card">
           <SectionTitle>
-            Services
+            Services at Bland
           </SectionTitle>
           <ServicesItems className="services__items">
             <ServicesItem className="services__items--item" active={this.state.service === "branding"} onClick={() => this.setState({ service: 'branding'})}>
@@ -227,14 +245,8 @@ class Services extends Component {
             <ServicesItem className="services__items--item" active={this.state.service === "social"} onClick={() => this.setState({ service: 'social'})}>
               Social Media Management
             </ServicesItem>
-            <ServicesItem className="services__items--item" active={this.state.service === "retention"} onClick={() => this.setState({ service: 'retention'})}>
-              Customer Retention
-            </ServicesItem>
-            <ServicesItem className="services__items--item" active={this.state.service === "reputation"} onClick={() => this.setState({ service: 'reputation'})}>
-              Reputation Management
-            </ServicesItem>
-            <ServicesItem className="services__items--item" active={this.state.service === "strategy"} onClick={() => this.setState({ service: 'strategy'})}>
-              Strategy
+            <ServicesItem className="services__items--item" active={this.state.service === "acquisition"} onClick={() => this.setState({ service: 'acquisition'})}>
+              Acquisition & Retention
             </ServicesItem>
           </ServicesItems>
         </SectionCard>

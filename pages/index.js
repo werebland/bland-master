@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import Link from 'next/link'
+import Head from 'next/head'
 import MediaQuery from 'react-responsive';
 import Hero from '../components/Hero'
 import Header from '../components/Header'
@@ -97,6 +98,9 @@ class Index extends Component {
   render() {
     return (
       <PageWrapper>
+        <Head>
+          <title>Bland | A Halifax Agency Creating Tasteful Presences</title>
+        </Head>
         <Menu open={this.state.menuVisible}/>
         <Header handleMenuToggle={() => this.setState({ menuVisible: !this.state.menuVisible})} open={this.state.menuVisible}/>
         <MediaQuery query="(min-width: 1160px)">
@@ -109,7 +113,7 @@ class Index extends Component {
           </FloatyContent>
           <Link href="/services" prefetch passHref>
             <FloatyButton  className="about__button">
-              See what we can do
+              See what Bland can do
             </FloatyButton>
           </Link>
         </Floaty>

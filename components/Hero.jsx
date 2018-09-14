@@ -12,7 +12,7 @@ const SectionContent = styled.div`
   display: flex;
   flex: 1;
   width: 100%;
-  padding-left: 144px;
+  padding-left: 504px;
   box-sizing: border-box;
   align-items: center;
 
@@ -21,7 +21,7 @@ const SectionContent = styled.div`
   }
 
   @media all and (max-width: 520px) {
-    padding-left: 24px
+    padding: 72px 24px 24px;
   }
 `;
 

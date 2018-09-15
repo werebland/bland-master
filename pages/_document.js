@@ -49,16 +49,28 @@ export default class MyDocument extends Document {
           <meta name="description" content="A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer."/>
           {this.props.styleTags}
           <StructuredData
-              type='Organization'
+              type='LocalBusiness'
               data={{
                   url: 'https://werebland.com',
                   logo: `https://werebland.com/static/bland__square.png`,
                   name: 'Bland Marketing Agency',
+                  telephone: '+19022223062',
+                  email: 'hello@werebland.com',
+                  description: 'A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer.',
                   sameAs: [
                       'https://www.facebook.com/Bland-2218276858408891/',
                       'https://www.linkedin.com/company/werebland/',
                       'https://www.instagram.com/werebland/',
                   ],
+                  founder: {
+                    '@type': 'person',
+                    name: 'Christopher Marshall',
+                  },
+                  foundingLocation: {
+                    '@type': 'PostalAddress',
+                    addressLocality: 'Halifax',
+                    addressRegion: 'NS',
+                  }
               }}
           />
         </Head>

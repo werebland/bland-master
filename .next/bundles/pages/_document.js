@@ -6161,12 +6161,24 @@ function (_Document) {
           lineNumber: 49
         }
       }), this.props.styleTags, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_google_structured_data___default.a, {
-        type: "Organization",
+        type: "LocalBusiness",
         data: {
           url: 'https://werebland.com',
           logo: "https://werebland.com/static/bland__square.png",
           name: 'Bland Marketing Agency',
-          sameAs: ['https://www.facebook.com/Bland-2218276858408891/', 'https://www.linkedin.com/company/werebland/', 'https://www.instagram.com/werebland/']
+          telephone: '+19022223062',
+          email: 'hello@werebland.com',
+          description: 'A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer.',
+          sameAs: ['https://www.facebook.com/Bland-2218276858408891/', 'https://www.linkedin.com/company/werebland/', 'https://www.instagram.com/werebland/'],
+          founder: {
+            '@type': 'person',
+            name: 'Christopher Marshall'
+          },
+          foundingLocation: {
+            '@type': 'PostalAddress',
+            addressLocality: 'Halifax',
+            addressRegion: 'NS'
+          }
         },
         __source: {
           fileName: _jsxFileName,
@@ -6180,17 +6192,17 @@ function (_Document) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 77
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 78
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 79
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("form", {
         name: "contact",
@@ -6200,7 +6212,7 @@ function (_Document) {
         hidden: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 80
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
@@ -6208,41 +6220,41 @@ function (_Document) {
         name: "bot-field",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 81
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
         name: "fname",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 82
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
         name: "lname",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 83
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "email",
         name: "email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 84
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
         name: "hangout",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 85
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", {
         name: "message",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 86
         }
       }))));
     }

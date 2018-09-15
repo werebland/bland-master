@@ -1,117 +1,19 @@
-module.exports =
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		var threw = true;
-/******/ 		try {
-/******/ 			modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 			threw = false;
-/******/ 		} finally {
-/******/ 			if(threw) delete installedModules[moduleId];
-/******/ 		}
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, {
-/******/ 				configurable: false,
-/******/ 				enumerable: true,
-/******/ 				get: getter
-/******/ 			});
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
-/******/ })
-/************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports) {
+webpackHotUpdate(1,{
 
-module.exports = require("react");
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-components");
-
-/***/ }),
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */,
-/* 9 */,
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(11);
-
-
-/***/ }),
-/* 11 */
+/***/ "./pages/_document.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__("./node_modules/next/document.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_document__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_components__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_styled_components__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_google_structured_data__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_components__ = __webpack_require__("./node_modules/styled-components/dist/styled-components.es.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_google_structured_data__ = __webpack_require__("./node_modules/react-google-structured-data/dist/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_google_structured_data___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_google_structured_data__);
+var _jsxFileName = "/Users/Chris/bland-ultra/pages/_document.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -119,6 +21,8 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -151,69 +55,160 @@ function (_Document) {
   _createClass(MyDocument, [{
     key: "render",
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=".concat(GA_TRACKING_ID)
+        src: "https://www.googletagmanager.com/gtag/js?id=".concat(GA_TRACKING_ID),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         dangerouslySetInnerHTML: {
           __html: "\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', '".concat(GA_TRACKING_ID, "');\n          ")
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, "Bland | A Halifax Agency Creating Tasteful Presences"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        }
+      }, "Bland | A Halifax Agency Creating Tasteful Presences"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "apple-touch-icon",
         sizes: "180x180",
-        href: "/static/apple-touch-icon.png"
+        href: "/static/apple-touch-icon.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "icon",
         type: "image/png",
         sizes: "32x32",
-        href: "/static/favicon-32x32.png"
+        href: "/static/favicon-32x32.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: "/static/favicon-16x16.png"
+        href: "/static/favicon-16x16.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "manifest",
-        href: "/static/site.webmanifest"
+        href: "/static/site.webmanifest",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "msapplication-TileColor",
-        content: "#da532c"
+        content: "#da532c",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "theme-color",
-        content: "#ffffff"
+        content: "#ffffff",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "viewport",
-        content: "width=device-width, initial-scale=1"
+        content: "width=device-width, initial-scale=1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:type",
-        content: "business.business"
+        content: "business.business",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:title",
-        content: "Bland Marketing Agency"
+        content: "Bland Marketing Agency",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:url",
-        content: "https://werebland.com"
+        content: "https://werebland.com",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:image",
-        content: "https://werebland.com/static/bland__square.png"
+        content: "https://werebland.com/static/bland__square.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:street_address",
-        content: "22A Sunnybrae Ave"
+        content: "22A Sunnybrae Ave",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:locality",
-        content: "Halifax"
+        content: "Halifax",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:region",
-        content: "Nova Scotia"
+        content: "Nova Scotia",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:postal_code",
-        content: "B3N 2G1"
+        content: "B3N 2G1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:country_name",
-        content: "Canada"
+        content: "Canada",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "description",
-        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer."
+        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer.",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        }
       }), this.props.styleTags, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_google_structured_data___default.a, {
         type: "LocalBusiness",
         data: {
@@ -229,51 +224,102 @@ function (_Document) {
             name: 'Christopher Marshall'
           },
           foundingLocation: {
-            '@type': 'PostalAddress',
+            type: 'PostalAddress',
             addressLocality: 'Halifax',
             addressRegion: 'NS'
           }
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
         style: {
           margin: 0,
           padding: 0,
           fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("form", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("form", {
         name: "contact",
         method: "post",
         "data-netlify": "true",
         "data-netlify-honeypot": "bot-field",
-        hidden: true
+        hidden: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80
+        }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
         hidden: true,
-        name: "bot-field"
+        name: "bot-field",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
-        name: "fname"
+        name: "fname",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
-        name: "lname"
+        name: "lname",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "email",
-        name: "email"
+        name: "email",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
-        name: "hangout"
+        name: "hangout",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", {
-        name: "message"
+        name: "message",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86
+        }
       }))));
     }
   }], [{
     key: "getInitialProps",
     value: function getInitialProps(_ref) {
       var renderPage = _ref.renderPage;
-      var sheet = new __WEBPACK_IMPORTED_MODULE_2_styled_components__["ServerStyleSheet"]();
+      var sheet = new __WEBPACK_IMPORTED_MODULE_2_styled_components__["a" /* ServerStyleSheet */]();
       var page = renderPage(function (App) {
         return function (props) {
-          return sheet.collectStyles(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(App, props));
+          return sheet.collectStyles(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(App, _extends({}, props, {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 10
+            }
+          })));
         };
       });
       var styleTags = sheet.getStyleElement();
@@ -287,18 +333,27 @@ function (_Document) {
 }(__WEBPACK_IMPORTED_MODULE_1_next_document___default.a);
 
 
+    (function (Component, route) {
+      if(!Component) return
+      if (false) return
+      module.hot.accept()
+      Component.__route = route
 
-/***/ }),
-/* 12 */
-/***/ (function(module, exports) {
+      if (module.hot.status() === 'idle') return
 
-module.exports = require("next/document");
+      var components = next.router.components
+      for (var r in components) {
+        if (!components.hasOwnProperty(r)) continue
 
-/***/ }),
-/* 13 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-google-structured-data");
+        if (components[r].Component.__route === route) {
+          next.router.update(r, Component)
+        }
+      }
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/_document")
+  
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ })
-/******/ ]);
+
+})
+//# sourceMappingURL=1.11419fd965a04a30214d.hot-update.js.map

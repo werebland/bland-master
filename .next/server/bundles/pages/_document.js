@@ -195,7 +195,28 @@ function (_Document) {
         content: "https://werebland.com"
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:image",
-        content: "https://werebland.com/static/bland__square.png"
+        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        property: "og:image:secure_url",
+        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:card",
+        content: "summary_large_image"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:site",
+        content: "@werebland"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:url",
+        content: "https://werebland.com"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:title",
+        content: "Bland | A Halifax Agency Creating Tasteful Presences"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:description",
+        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the food and beverage industry. Let us buy you a beer."
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:image",
+        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png"
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:street_address",
         content: "22A Sunnybrae Ave"
@@ -214,25 +235,37 @@ function (_Document) {
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "description",
         content: "A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer."
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "og:description",
+        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the food and beverage industry. Let us buy you a beer."
       }), this.props.styleTags, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_google_structured_data___default.a, {
         type: "LocalBusiness",
         data: {
           url: 'https://werebland.com',
-          logo: "https://werebland.com/static/bland__square.png",
+          logo: "https://werebland.com/static/bland-marketing-agency__square.png",
           name: 'Bland Marketing Agency',
           telephone: '+19022223062',
           email: 'hello@werebland.com',
           description: 'A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer.',
+          image: 'https://werebland.com/static/bland-marketing-agency__tomatoes.png',
           sameAs: ['https://www.facebook.com/Bland-2218276858408891/', 'https://www.linkedin.com/company/werebland/', 'https://www.instagram.com/werebland/'],
           founder: {
             '@type': 'person',
             name: 'Christopher Marshall'
           },
           foundingLocation: {
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: 'Halifax',
+              addressRegion: 'NS'
+            }
+          },
+          address: {
             '@type': 'PostalAddress',
             addressLocality: 'Halifax',
             addressRegion: 'NS'
-          }
+          },
+          openingHours: 'Mo,Tu,We,Th,Fr 09:00-17:00'
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
         style: {

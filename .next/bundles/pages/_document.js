@@ -6113,76 +6113,141 @@ function (_Document) {
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:image",
-        content: "https://werebland.com/static/bland__square.png",
+        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 43
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        property: "og:image:secure_url",
+        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:card",
+        content: "summary_large_image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:site",
+        content: "@werebland",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:url",
+        content: "https://werebland.com",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:title",
+        content: "Bland | A Halifax Agency Creating Tasteful Presences",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:description",
+        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the food and beverage industry. Let us buy you a beer.",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "twitter:image",
+        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:street_address",
         content: "22A Sunnybrae Ave",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 51
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:locality",
         content: "Halifax",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 52
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:region",
         content: "Nova Scotia",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 53
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:postal_code",
         content: "B3N 2G1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 54
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:country_name",
         content: "Canada",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 55
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "description",
         content: "A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer.",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 56
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "og:description",
+        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the food and beverage industry. Let us buy you a beer.",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
         }
       }), this.props.styleTags, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_google_structured_data___default.a, {
         type: "LocalBusiness",
         data: {
           url: 'https://werebland.com',
-          logo: "https://werebland.com/static/bland__square.png",
+          logo: "https://werebland.com/static/bland-marketing-agency__square.png",
           name: 'Bland Marketing Agency',
           telephone: '+19022223062',
           email: 'hello@werebland.com',
           description: 'A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer.',
+          image: 'https://werebland.com/static/bland-marketing-agency__tomatoes.png',
           sameAs: ['https://www.facebook.com/Bland-2218276858408891/', 'https://www.linkedin.com/company/werebland/', 'https://www.instagram.com/werebland/'],
           founder: {
             '@type': 'person',
             name: 'Christopher Marshall'
           },
           foundingLocation: {
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: 'Halifax',
+              addressRegion: 'NS'
+            }
+          },
+          address: {
             '@type': 'PostalAddress',
             addressLocality: 'Halifax',
             addressRegion: 'NS'
-          }
+          },
+          openingHours: 'Mo,Tu,We,Th,Fr 09:00-17:00'
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 59
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
         style: {
@@ -6192,17 +6257,17 @@ function (_Document) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 94
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 95
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 96
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("form", {
         name: "contact",
@@ -6212,7 +6277,7 @@ function (_Document) {
         hidden: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 97
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
@@ -6220,41 +6285,41 @@ function (_Document) {
         name: "bot-field",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 98
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
         name: "fname",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 99
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
         name: "lname",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 100
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "email",
         name: "email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 101
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
         name: "hangout",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 102
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", {
         name: "message",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 103
         }
       }))));
     }

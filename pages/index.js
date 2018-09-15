@@ -15,6 +15,7 @@ const PageWrapper = styled.div`
   height: 100%;
   padding: 0;
   margin: 0;
+  overflow: ${props => props.open ? 'hidden' : 'scroll'};
 `;
 
 const Floaty = styled.div`
@@ -97,7 +98,7 @@ class Index extends Component {
 
   render() {
     return (
-      <PageWrapper>
+      <PageWrapper open={this.state.menuVisible}>
         <Head>
           <title>Bland | A Halifax Agency Creating Tasteful Presences</title>
         </Head>

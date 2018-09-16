@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 16);
+/******/ 	return __webpack_require__(__webpack_require__.s = 19);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -267,221 +267,8 @@ var Menu = function Menu(_ref) {
 module.exports = require("next/head");
 
 /***/ }),
-/* 7 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_styled_components__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_floating_label_react__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_floating_label_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_floating_label_react__);
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-var ContactWrapper = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.article.withConfig({
-  displayName: "Contact__ContactWrapper",
-  componentId: "sc-10vz4cd-0"
-})(["width:25vw;min-width:330px;height:auto;position:absolute;left:72px;top:72px;background:#fff;box-shadow:0 2px 16px -2px rgba(159,159,159,0.32);@media all and (max-width:770px){position:relative;left:0;right:0;margin:auto;}"]);
-var ContactHeader = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.h3.withConfig({
-  displayName: "Contact__ContactHeader",
-  componentId: "sc-10vz4cd-1"
-})(["width:100%;padding:24px 0;background:#0f0f0f;color:#fff;font-size:1.5rem;font-weight:500;margin:0;display:flex;align-items:center;justify-content:center;"]);
-var ContactForm = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.form.withConfig({
-  displayName: "Contact__ContactForm",
-  componentId: "sc-10vz4cd-2"
-})(["width:100%;padding:24px;box-sizing:border-box;display:flex;flex-flow:column nowrap;& label input{width:100%;margin-bottom:8px;}& label textarea{width:100%;height:120px;margin-bottom:24px;}& input:-webkit-autofill,& input:-webkit-autofill:hover,& input:-webkit-autofill:focus & textarea:-webkit-autofill,& textarea:-webkit-autofill:hover & textarea:-webkit-autofill:focus,& select:-webkit-autofill,& select:-webkit-autofill:hover,& select:-webkit-autofill:focus{-webkit-box-shadow:0 0 0px 1000px #fff inset;}"]);
-var ContactFormRow = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
-  displayName: "Contact__ContactFormRow",
-  componentId: "sc-10vz4cd-3"
-})(["width:100%;display:flex;flex-flow:row nowrap;justify-content:space-between;& label{width:calc(50% - 12px);}& label input{width:100%;}& label textarea{width:100%;}"]);
-var ContactFormFieldset = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.fieldset.withConfig({
-  displayName: "Contact__ContactFormFieldset",
-  componentId: "sc-10vz4cd-4"
-})(["border:0;"]);
-var StyledSubmitWrapper = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
-  displayName: "Contact__StyledSubmitWrapper",
-  componentId: "sc-10vz4cd-5"
-})(["width:100%;height:56px;display:flex;align-items:center;justify-content:center;box-sizing:border-box;appearance:none;color:#0f0f0f;font-size:1.5rem;font-weight:400;position:relative;z-index:1;cursor:pointer;text-decoration:none;position:relative;&::before{content:\"\";height:100%;width:100%;position:absolute;left:0;top:0;bottom:0;background:#9f9f9f;z-index:-1;}&::after{content:\"\";height:100%;width:100%;background:#0f0f0f;position:absolute;left:0;top:0;bottom:0;z-index:-1;transition:0.3s ease-out all;}&:hover::after{width:0;}"]);
-var StyledSubmit = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.input.withConfig({
-  displayName: "Contact__StyledSubmit",
-  componentId: "sc-10vz4cd-6"
-})(["position:absolute;width:100%;height:100%;top:0;right:0;bottom:0;left:0;display:flex;align-items:center;justify-content:center;appearance:none;border:0;background-image:none;background:transparent;color:#fff;font-size:1.25rem;font-weight:400;cursor:pointer;"]);
-
-var Contact =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(Contact, _Component);
-
-  function Contact() {
-    _classCallCheck(this, Contact);
-
-    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
-  }
-
-  _createClass(Contact, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ContactWrapper, {
-        className: "contact"
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ContactHeader, {
-        className: "contact__header"
-      }, "Let us buy you a beer"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ContactForm, {
-        name: "contact",
-        className: "contact__form",
-        method: "post",
-        "data-netlify": "true",
-        "data-netlify-honeypot": "bot-field"
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ContactFormRow, {
-        className: "contact__form--row"
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
-        type: "hidden",
-        name: "form-name",
-        value: "contact"
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
-        type: "text",
-        name: "bot-field",
-        hidden: true
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_floating_label_react___default.a, {
-        type: "text",
-        name: "fname",
-        placeholder: "First name",
-        required: true,
-        styles: {
-          floating: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["floatingStyles"], {
-            color: '#9f9f9f'
-          }),
-          focus: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["focusStyles"], {
-            borderColor: '#0f0f0f'
-          }),
-          input: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["inputStyles"], {
-            borderBottomColor: '#9f9f9f',
-            width: '100%'
-          }),
-          label: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["labelStyles"], {
-            color: '#9f9f9f'
-          })
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_floating_label_react___default.a, {
-        type: "text",
-        name: "lname",
-        placeholder: "Last name",
-        required: true,
-        styles: {
-          floating: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["floatingStyles"], {
-            color: '#9f9f9f'
-          }),
-          focus: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["focusStyles"], {
-            borderColor: '#0f0f0f'
-          }),
-          input: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["inputStyles"], {
-            borderBottomColor: '#9f9f9f',
-            width: '100%'
-          }),
-          label: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["labelStyles"], {
-            color: '#9f9f9f'
-          })
-        }
-      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_floating_label_react___default.a, {
-        type: "email",
-        placeholder: "Email",
-        name: "email",
-        required: true,
-        styles: {
-          floating: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["floatingStyles"], {
-            color: '#9f9f9f'
-          }),
-          focus: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["focusStyles"], {
-            borderColor: '#0f0f0f'
-          }),
-          input: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["inputStyles"], {
-            borderBottomColor: '#9f9f9f',
-            width: '100%'
-          }),
-          label: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["labelStyles"], {
-            color: '#9f9f9f'
-          })
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_floating_label_react___default.a, {
-        type: "text",
-        placeholder: "Favorite Halifax hangout spot",
-        name: "hangout",
-        required: true,
-        styles: {
-          floating: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["floatingStyles"], {
-            color: '#9f9f9f'
-          }),
-          focus: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["focusStyles"], {
-            borderColor: '#0f0f0f'
-          }),
-          input: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["inputStyles"], {
-            borderBottomColor: '#9f9f9f',
-            width: '100%'
-          }),
-          label: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["labelStyles"], {
-            color: '#9f9f9f'
-          })
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_floating_label_react___default.a, {
-        type: "text",
-        placeholder: "What are you working on? (AirBnB for pets, a queso truck, etc)",
-        name: "message",
-        required: true,
-        element: "textarea",
-        rows: "5",
-        styles: {
-          floating: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["floatingStyles"], {
-            color: '#9f9f9f'
-          }),
-          focus: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["focusStyles"], {
-            borderColor: '#0f0f0f'
-          }),
-          input: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["inputStyles"], {
-            borderBottomColor: '#9f9f9f',
-            width: '100%'
-          }),
-          label: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_2_floating_label_react__["labelStyles"], {
-            color: '#9f9f9f'
-          })
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledSubmitWrapper, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledSubmit, {
-        type: "submit",
-        value: "Submit"
-      }))));
-    }
-  }]);
-
-  return Contact;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
-
-/* harmony default export */ __webpack_exports__["a"] = (Contact);
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports) {
-
-module.exports = require("floating-label-react");
-
-/***/ }),
+/* 7 */,
+/* 8 */,
 /* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -662,136 +449,30 @@ function (_Component) {
 /* 13 */,
 /* 14 */,
 /* 15 */,
-/* 16 */
+/* 16 */,
+/* 17 */,
+/* 18 */,
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(17);
+module.exports = __webpack_require__(20);
 
 
 /***/ }),
-/* 17 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-
-// EXTERNAL MODULE: external "react"
-var external__react_ = __webpack_require__(0);
-var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
-
-// EXTERNAL MODULE: external "styled-components"
-var external__styled_components_ = __webpack_require__(1);
-var external__styled_components__default = /*#__PURE__*/__webpack_require__.n(external__styled_components_);
-
-// EXTERNAL MODULE: external "next/link"
-var link_ = __webpack_require__(2);
-var link__default = /*#__PURE__*/__webpack_require__.n(link_);
-
-// EXTERNAL MODULE: external "next/head"
-var head_ = __webpack_require__(6);
-var head__default = /*#__PURE__*/__webpack_require__.n(head_);
-
-// EXTERNAL MODULE: external "react-responsive"
-var external__react_responsive_ = __webpack_require__(18);
-var external__react_responsive__default = /*#__PURE__*/__webpack_require__.n(external__react_responsive_);
-
-// CONCATENATED MODULE: ./components/Hero.jsx
-function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
-
-
-
-var Section = external__styled_components__default.a.section.withConfig({
-  displayName: "Hero__Section",
-  componentId: "mrxqip-0"
-})(["width:100vw;height:100vh;display:flex;flex-flow:column nowrap;"]);
-var SectionContent = external__styled_components__default.a.div.withConfig({
-  displayName: "Hero__SectionContent",
-  componentId: "mrxqip-1"
-})(["display:flex;flex:1;width:100%;padding-left:504px;box-sizing:border-box;align-items:center;@media all and (max-width:860px){padding-left:48px}@media all and (max-width:520px){padding:72px 24px 24px;}"]);
-var SectionTitle = external__styled_components__default.a.h1.withConfig({
-  displayName: "Hero__SectionTitle",
-  componentId: "mrxqip-2"
-})(["font-size:3rem;font-weight:100;color:#9f9f9f;margin:0;& strong{font-weight:500;color:#0f0f0f;display:block;}@media all and (max-width:520px){font-size:2.5rem;}"]);
-var SectionImage = external__styled_components__default.a.div.withConfig({
-  displayName: "Hero__SectionImage",
-  componentId: "mrxqip-3"
-})(["display:flex;flex:1;width:100%;background:#9f9f9f;background-image:url(", ");background-size:cover;background-position:center;"], function (props) {
-  return props.image;
-});
-
-var Hero_Hero = function Hero(_ref) {
-  _objectDestructuringEmpty(_ref);
-
-  return external__react__default.a.createElement(Section, {
-    className: "hero"
-  }, external__react__default.a.createElement(SectionContent, {
-    className: "hero__content"
-  }, external__react__default.a.createElement(SectionTitle, {
-    className: "hero__content--title"
-  }, "Forget the 7 herbs and spices,", external__react__default.a.createElement("strong", null, "we're your secret ingredient"))), external__react__default.a.createElement(SectionImage, {
-    image: "/static/spices.jpg"
-  }));
-};
-
-/* harmony default export */ var components_Hero = (Hero_Hero);
-// EXTERNAL MODULE: ./components/Header.jsx
-var Header = __webpack_require__(4);
-
-// CONCATENATED MODULE: ./components/Why.jsx
-function Why__objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
-
-
-
-var Why_Section = external__styled_components__default.a.section.withConfig({
-  displayName: "Why__Section",
-  componentId: "e62d7n-0"
-})(["width:100vw;height:100%;min-height:100vh;display:flex;flex-flow:row nowrap;align-items:center;padding:72px;box-sizing:border-box;position:relative;@media all and (max-width:860px){padding:72px 48px;}@media all and (max-width:670px){flex-flow:column nowrap;}@media all and (max-width:520px){padding:72px 24px;}"]);
-var SectionCard = external__styled_components__default.a.article.withConfig({
-  displayName: "Why__SectionCard",
-  componentId: "e62d7n-1"
-})(["width:50vw;height:60vh;padding:48px;box-sizing:border-box;background:#FFFFFF;box-shadow:0 2px 16px -2px rgba(159,159,159,0.32);z-index:8;@media all and (max-width:1000px){width:75vw;}@media all and (max-width:670px){width:75vw;height:auto;padding:24px;}"]);
-var Why_SectionTitle = external__styled_components__default.a.h3.withConfig({
-  displayName: "Why__SectionTitle",
-  componentId: "e62d7n-2"
-})(["font-size:2rem;font-weight:500;color:#0f0f0f;margin:0 0 24px 0;"]);
-var SectionCopy = external__styled_components__default.a.p.withConfig({
-  displayName: "Why__SectionCopy",
-  componentId: "e62d7n-3"
-})(["font-size:1.5rem;font-weight:300;color:#9f9f9f;margin:0;padding:0;"]);
-var Why_SectionImage = external__styled_components__default.a.div.withConfig({
-  displayName: "Why__SectionImage",
-  componentId: "e62d7n-4"
-})(["width:66vw;height:calc(100vh - 144px);background:#9f9f9f;display:flex;position:absolute;top:72px;right:72px;background-image:url(", ");background-size:cover;background-position:center;@media all and (max-width:860px){right:48px;}@media all and (max-width:670px){width:100vw;right:0;left:0;top:24px;}"], function (props) {
-  return props.image;
-});
-
-var Why_Why = function Why(_ref) {
-  Why__objectDestructuringEmpty(_ref);
-
-  return external__react__default.a.createElement(Why_Section, {
-    className: "why"
-  }, external__react__default.a.createElement(SectionCard, {
-    className: "why__card"
-  }, external__react__default.a.createElement(Why_SectionTitle, {
-    className: "why__card--title"
-  }, "Why Bland?"), external__react__default.a.createElement(SectionCopy, {
-    className: "why__card--copy"
-  }, "By merging disruptive technology with industry standards, we are able to create a one-of-a-kind presence for your brand. From social media management and content creation to a full-blown branding and identity overhaul, we have the power, expertise, and drive to bring your vision to life. From startups to established business, we\u2019re ready for the opportunity to embrace your big idea.")), external__react__default.a.createElement(Why_SectionImage, {
-    image: "/static/speaker.jpg"
-  }));
-};
-
-/* harmony default export */ var components_Why = (Why_Why);
-// EXTERNAL MODULE: ./components/Menu.jsx
-var Menu = __webpack_require__(5);
-
-// EXTERNAL MODULE: ./components/Contact.jsx
-var Contact = __webpack_require__(7);
-
-// EXTERNAL MODULE: ./components/Services.jsx
-var Services = __webpack_require__(9);
-
-// CONCATENATED MODULE: ./pages/index.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_styled_components__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Header__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Menu__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Services__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_head__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_next_head__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -812,89 +493,52 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+var PageWrapper = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
+  displayName: "services__PageWrapper",
+  componentId: "zkuara-0"
+})(["width:100%;height:100%;padding:0;margin:0;"]);
 
-
-
-
-
-var PageWrapper = external__styled_components__default.a.div.withConfig({
-  displayName: "pages__PageWrapper",
-  componentId: "sc-1wbo52z-0"
-})(["width:100%;height:100%;padding:0;margin:0;overflow:", ";"], function (props) {
-  return props.open ? 'hidden' : 'scroll';
-});
-var Floaty = external__styled_components__default.a.div.withConfig({
-  displayName: "pages__Floaty",
-  componentId: "sc-1wbo52z-1"
-})(["width:40vw;height:auto;margin:24px auto;padding:24px;box-sizing:border-box;background:#0f0f0f;@media all and (max-width:860px){width:calc(100vw - 96px);}@media all and (max-width:520px){width:calc(100vw - 48px);}"]);
-var FloatyContent = external__styled_components__default.a.p.withConfig({
-  displayName: "pages__FloatyContent",
-  componentId: "sc-1wbo52z-2"
-})(["font-size:1.5rem;font-weight:500;color:#fff;margin:0 0 24px 0;padding:0;"]);
-var FloatyButton = external__styled_components__default.a.a.withConfig({
-  displayName: "pages__FloatyButton",
-  componentId: "sc-1wbo52z-3"
-})(["width:100%;height:64px;display:flex;align-items:center;justify-content:center;color:#0f0f0f;font-size:1.5rem;font-weight:400;position:relative;z-index:1;cursor:pointer;text-decoration:none;&::before{content:\"\";height:100%;width:100%;position:absolute;left:0;top:0;bottom:0;background:#9f9f9f;z-index:-1;}&::after{content:\"\";height:100%;width:100%;background:#fff;position:absolute;left:0;top:0;bottom:0;z-index:-1;transition:0.3s ease-out all;}&:hover::after{width:0;}"]);
-
-var pages_Index =
+var ServicesPage =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(Index, _Component);
+  _inherits(ServicesPage, _Component);
 
-  function Index(props) {
+  function ServicesPage(props) {
     var _this;
 
-    _classCallCheck(this, Index);
+    _classCallCheck(this, ServicesPage);
 
-    _this = _possibleConstructorReturn(this, (Index.__proto__ || Object.getPrototypeOf(Index)).call(this, props));
+    _this = _possibleConstructorReturn(this, (ServicesPage.__proto__ || Object.getPrototypeOf(ServicesPage)).call(this, props));
     _this.state = {
       menuVisible: false
     };
     return _this;
   }
 
-  _createClass(Index, [{
+  _createClass(ServicesPage, [{
     key: "render",
     value: function render() {
       var _this2 = this;
 
-      return external__react__default.a.createElement(PageWrapper, {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PageWrapper, {
+        className: "pageWrapper__services"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_next_head___default.a, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, "Services at Bland | A Halifax Agency Creating Tasteful Presences")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Menu__["a" /* default */], {
         open: this.state.menuVisible
-      }, external__react__default.a.createElement(head__default.a, null, external__react__default.a.createElement("title", null, "Bland | A Halifax Agency Creating Tasteful Presences")), external__react__default.a.createElement(Menu["a" /* default */], {
-        open: this.state.menuVisible
-      }), external__react__default.a.createElement(Header["a" /* default */], {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Header__["a" /* default */], {
         handleMenuToggle: function handleMenuToggle() {
           return _this2.setState({
             menuVisible: !_this2.state.menuVisible
           });
         },
         open: this.state.menuVisible
-      }), external__react__default.a.createElement(external__react_responsive__default.a, {
-        query: "(min-width: 1160px)"
-      }, external__react__default.a.createElement(Contact["a" /* default */], null)), external__react__default.a.createElement(components_Hero, null), external__react__default.a.createElement(Floaty, {
-        className: "about"
-      }, external__react__default.a.createElement(FloatyContent, {
-        className: "about__content"
-      }, "Bland is an agile marketing agency devoted to first impressions with a focus on the food and beverage industry. We sweat the details of content and identity to create tangible and expansive presences that capture customers and lead to real-world growth."), external__react__default.a.createElement(link__default.a, {
-        href: "/services",
-        prefetch: true,
-        passHref: true
-      }, external__react__default.a.createElement(FloatyButton, {
-        className: "about__button"
-      }, "See what Bland can do"))), external__react__default.a.createElement(components_Why, null), external__react__default.a.createElement(Services["a" /* default */], null));
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Services__["a" /* default */], null));
     }
   }]);
 
-  return Index;
-}(external__react_["Component"]);
+  return ServicesPage;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-/* harmony default export */ var pages = __webpack_exports__["default"] = (pages_Index);
-
-/***/ }),
-/* 18 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-responsive");
+/* harmony default export */ __webpack_exports__["default"] = (ServicesPage);
 
 /***/ })
 /******/ ]);

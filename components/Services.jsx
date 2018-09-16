@@ -4,7 +4,8 @@ import posed from 'react-pose'
 
 const Section = styled.section`
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -46,7 +47,7 @@ const SectionContent = styled.div`
 
   @media all and (max-width: 770px) {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     left: 0;
     right: 0;
     top: 96px;

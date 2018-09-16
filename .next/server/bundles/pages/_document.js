@@ -67,51 +67,26 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports) {
+/******/ ({
 
-module.exports = require("react");
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-components");
-
-/***/ }),
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */,
-/* 9 */,
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(11);
-
-
-/***/ }),
-/* 11 */
+/***/ "./pages/_document.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__("next/document");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_document__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_components__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_components__ = __webpack_require__("styled-components");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_styled_components__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_google_structured_data__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_google_structured_data__ = __webpack_require__("react-google-structured-data");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_google_structured_data___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_google_structured_data__);
+var _jsxFileName = "/Users/Chris/bland-ultra/pages/_document.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -119,6 +94,8 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -151,93 +128,216 @@ function (_Document) {
   _createClass(MyDocument, [{
     key: "render",
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=".concat(GA_TRACKING_ID)
+        src: "https://www.googletagmanager.com/gtag/js?id=".concat(GA_TRACKING_ID),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         dangerouslySetInnerHTML: {
           __html: "\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', '".concat(GA_TRACKING_ID, "');\n          ")
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, "Bland | A Halifax Agency Creating Tasteful Presences"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        }
+      }, "Bland | A Halifax Agency Creating Tasteful Presences"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "apple-touch-icon",
         sizes: "180x180",
-        href: "/static/apple-touch-icon.png"
+        href: "/static/apple-touch-icon.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "icon",
         type: "image/png",
         sizes: "32x32",
-        href: "/static/favicon-32x32.png"
+        href: "/static/favicon-32x32.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: "/static/favicon-16x16.png"
+        href: "/static/favicon-16x16.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "manifest",
-        href: "/static/site.webmanifest"
+        href: "/static/site.webmanifest",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "msapplication-TileColor",
-        content: "#da532c"
+        content: "#da532c",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "theme-color",
-        content: "#ffffff"
+        content: "#ffffff",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "viewport",
-        content: "width=device-width, initial-scale=1"
+        content: "width=device-width, initial-scale=1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:type",
-        content: "business.business"
+        content: "business.business",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:title",
-        content: "Bland Marketing Agency"
+        content: "Bland Marketing Agency",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:url",
-        content: "https://werebland.com"
+        content: "https://werebland.com",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:image",
-        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png"
+        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "og:image:secure_url",
-        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png"
+        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "twitter:card",
-        content: "summary_large_image"
+        content: "summary_large_image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "twitter:site",
-        content: "@werebland"
+        content: "@werebland",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "twitter:url",
-        content: "https://werebland.com"
+        content: "https://werebland.com",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "twitter:title",
-        content: "Bland | A Halifax Agency Creating Tasteful Presences"
+        content: "Bland | A Halifax Agency Creating Tasteful Presences",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "twitter:description",
-        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the food and beverage industry. Let us buy you a beer."
+        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the food and beverage industry. Let us buy you a beer.",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "twitter:image",
-        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png"
+        content: "https://werebland.com/static/bland-marketing-agency__tomatoes.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:street_address",
-        content: "22A Sunnybrae Ave"
+        content: "22A Sunnybrae Ave",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:locality",
-        content: "Halifax"
+        content: "Halifax",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:region",
-        content: "Nova Scotia"
+        content: "Nova Scotia",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:postal_code",
-        content: "B3N 2G1"
+        content: "B3N 2G1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         property: "business:contact_data:country_name",
-        content: "Canada"
+        content: "Canada",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "description",
-        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer."
+        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the F&B industry. Let us buy you a beer.",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "og:description",
-        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the food and beverage industry. Let us buy you a beer."
+        content: "A Halifax-based marketing agency devoted to first impressions with a focus on the food and beverage industry. Let us buy you a beer.",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        }
       }), this.props.styleTags, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_google_structured_data___default.a, {
         type: "LocalBusiness",
         data: {
@@ -266,37 +366,83 @@ function (_Document) {
             addressRegion: 'NS'
           },
           openingHours: 'Mo,Tu,We,Th,Fr 09:00-17:00'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
         style: {
           margin: 0,
           padding: 0,
           fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("form", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("form", {
         name: "contact",
         method: "post",
         "data-netlify": "true",
         "data-netlify-honeypot": "bot-field",
-        hidden: true
+        hidden: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
+        }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
         hidden: true,
-        name: "bot-field"
+        name: "bot-field",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
-        name: "fname"
+        name: "fname",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
-        name: "lname"
+        name: "lname",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 100
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "email",
-        name: "email"
+        name: "email",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         type: "text",
-        name: "hangout"
+        name: "hangout",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 102
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", {
-        name: "message"
+        name: "message",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103
+        }
       }))));
     }
   }], [{
@@ -306,7 +452,12 @@ function (_Document) {
       var sheet = new __WEBPACK_IMPORTED_MODULE_2_styled_components__["ServerStyleSheet"]();
       var page = renderPage(function (App) {
         return function (props) {
-          return sheet.collectStyles(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(App, props));
+          return sheet.collectStyles(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(App, _extends({}, props, {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 10
+            }
+          })));
         };
       });
       var styleTags = sheet.getStyleElement();
@@ -322,16 +473,42 @@ function (_Document) {
 
 
 /***/ }),
-/* 12 */
+
+/***/ 0:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./pages/_document.js");
+
+
+/***/ }),
+
+/***/ "next/document":
 /***/ (function(module, exports) {
 
 module.exports = require("next/document");
 
 /***/ }),
-/* 13 */
+
+/***/ "react":
+/***/ (function(module, exports) {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-google-structured-data":
 /***/ (function(module, exports) {
 
 module.exports = require("react-google-structured-data");
 
+/***/ }),
+
+/***/ "styled-components":
+/***/ (function(module, exports) {
+
+module.exports = require("styled-components");
+
 /***/ })
-/******/ ]);
+
+/******/ });
+//# sourceMappingURL=_document.js.map

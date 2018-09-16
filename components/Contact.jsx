@@ -9,13 +9,20 @@ import FloatingLabel, {
 
 const ContactWrapper = styled.article`
   width: 25vw;
-  min-width: 360px;
+  min-width: 330px;
   height: auto;
   position: absolute;
   left: 72px;
   top: 72px;
   background: #fff;
   box-shadow: 0 2px 16px -2px rgba(159,159,159,0.32);
+
+  @media all and (max-width: 770px) {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 `;
 
 const ContactHeader = styled.h3`

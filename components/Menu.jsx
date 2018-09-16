@@ -101,7 +101,7 @@ const Menu = ({ open }) => (
     <Footer>
       Made with ❤️ in Halifax
       <br/>
-      2018 Bland Marketing Agency
+      © 2018 Bland Marketing Agency
     </Footer>
   </StyledMenuWrapper>
 );

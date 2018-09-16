@@ -108,38 +108,9 @@ const StyledSubmitWrapper = styled.div`
   cursor: pointer;
   text-decoration: none;
   position: relative;
-
-  &::before {
-    content: "";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    background: #9f9f9f;
-    z-index: -1;
-  }
-
-  &::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: #0f0f0f;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.3s ease-out all;
-  }
-
-  &:hover::after {
-    width: 0;
-  }
 `;
 
-const StyledSubmit = styled.input`
+const StyledSubmit = styled.button`
   position: absolute;
   width: 100%;
   height: 100%;
@@ -154,10 +125,21 @@ const StyledSubmit = styled.input`
   border: 0;
   background-image: none;
   background: transparent;
-  color: #fff;
+  color: #0f0f0f;
   font-size: 1.25rem;
   font-weight: 400;
   cursor: pointer;
+  border: 2px solid #0f0f0f;
+
+  & i {
+    transition: 0.2s ease-out all;
+    transform: translateX(0);
+    font-size: 2.25rem;
+  }
+
+  &:hover i {
+    transform: translateX(4px);
+  }
 `;
 
 class Contact extends Component {
@@ -298,7 +280,12 @@ class Contact extends Component {
                 },
               }}/>
           <StyledSubmitWrapper>
-            <StyledSubmit type="submit" value="Submit"/>
+            <StyledSubmit>
+              Submit
+              <i class="material-icons">
+                chevron_right
+              </i>
+            </StyledSubmit>
           </StyledSubmitWrapper>
         </ContactForm>
       </ContactWrapper>

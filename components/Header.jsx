@@ -38,42 +38,23 @@ const HeaderContact = styled.a`
   height: 40px;
   font-size: 1rem;
   font-weight: 500;
-  color: #fff;
+  color: #0f0f0f;
   text-decoration: none;
-  padding: 0 24px;
+  padding: 0 12px 0 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   cursor: pointer;
+  border: 2px solid #0f0f0f;
 
-  &::before {
-    content: "";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    background: #9f9f9f;
-    z-index: -1;
+  & i {
+    transition: 0.2s ease-out all;
+    transform: translateX(0)
   }
 
-  &::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: #0f0f0f;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.3s ease-out all;
-  }
-
-  &:hover::after {
-    width: 0;
+  &:hover i {
+    transform: translateX(4px);
   }
 `;
 
@@ -136,6 +117,9 @@ const Header = ({handleMenuToggle, open}) => (
     <Link href="/contact" prefetch passHref>
       <HeaderContact className="header__contact">
         Contact
+        <i class="material-icons">
+          chevron_right
+        </i>
       </HeaderContact>
     </Link>
     <MenuToggle>

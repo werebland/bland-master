@@ -49,41 +49,23 @@ const FloatyButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #0f0f0f;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 400;
   position: relative;
   z-index: 1;
   cursor: pointer;
   text-decoration: none;
+  border: 2px solid #fff;
 
-  &::before {
-    content: "";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    background: #9f9f9f;
-    z-index: -1;
+  & i {
+    transition: 0.2s ease-out all;
+    transform: translateX(0);
+    font-size: 2.5rem;
   }
 
-  &::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: #fff;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.3s ease-out all;
-  }
-
-  &:hover::after {
-    width: 0;
+  &:hover i {
+    transform: translateX(4px);
   }
 `;
 
@@ -115,6 +97,9 @@ class Index extends Component {
           <Link href="/services" prefetch passHref>
             <FloatyButton  className="about__button">
               See what Bland can do
+              <i class="material-icons">
+                chevron_right
+              </i>
             </FloatyButton>
           </Link>
         </Floaty>

@@ -159,6 +159,9 @@ function (_Document) {
           __html: "\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', '".concat(GA_TRACKING_ID, "');\n          ")
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, "Bland | A Halifax Agency Creating Tasteful Presences"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+        href: "https://fonts.googleapis.com/icon?family=Material+Icons",
+        rel: "stylesheet"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "apple-touch-icon",
         sizes: "180x180",
         href: "/static/apple-touch-icon.png"

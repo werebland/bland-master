@@ -121,7 +121,7 @@ var HeaderLogo = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.a.wit
 var HeaderContact = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.a.withConfig({
   displayName: "Header__HeaderContact",
   componentId: "sc-1bl1itl-2"
-})(["height:40px;font-size:1rem;font-weight:500;color:#fff;text-decoration:none;padding:0 24px;display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer;&::before{content:\"\";height:100%;width:100%;position:absolute;left:0;top:0;bottom:0;background:#9f9f9f;z-index:-1;}&::after{content:\"\";height:100%;width:100%;background:#0f0f0f;position:absolute;left:0;top:0;bottom:0;z-index:-1;transition:0.3s ease-out all;}&:hover::after{width:0;}"]);
+})(["height:40px;font-size:1rem;font-weight:500;color:#0f0f0f;text-decoration:none;padding:0 12px 0 24px;display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer;border:2px solid #0f0f0f;& i{transition:0.2s ease-out all;transform:translateX(0)}&:hover i{transform:translateX(4px);}"]);
 var MenuToggle = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
   displayName: "Header__MenuToggle",
   componentId: "sc-1bl1itl-3"
@@ -163,7 +163,9 @@ var Header = function Header(_ref) {
     passHref: true
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(HeaderContact, {
     className: "header__contact"
-  }, "Contact")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MenuToggle, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MenuToggleIcon, {
+  }, "Contact", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+    "class": "material-icons"
+  }, "chevron_right"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MenuToggle, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MenuToggleIcon, {
     open: open,
     onClick: function onClick() {
       return handleMenuToggle();
@@ -385,7 +387,7 @@ function (_Component) {
         className: "services__title"
       }, "Content"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesCopy, {
         className: "services__copy"
-      }, "In a foodie world, content is the meat and potatoes. Like a well-finished dish, great content has all the essentials. It begins with mise en place, prepared with a trained and enthusiastic eye, and presented in an approachable but intriguing way.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), "Bland helps you create meaningful content that builds brands. With services from copywriting and public relations to menu consulting, we will always have something valuable to offer.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledServicesChanger, {
+      }, "In a foodie world, content is the meat and potatoes. Like a well-finished dish, great content has all the essentials. It begins with mise en place, prepared with a trained and enthusiastic eye, and presented in an approachable but intriguing way.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null), "Bland helps you create meaningful content that builds brands. With services from copywriting and public relations to menu consulting and food photography, we will always have something valuable to offer.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledServicesChanger, {
         pose: this.state.service === "social" ? 'visible' : 'hidden'
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ServicesTitle, {
         className: "services__title"

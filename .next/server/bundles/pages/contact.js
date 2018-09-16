@@ -121,7 +121,7 @@ var HeaderLogo = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.a.wit
 var HeaderContact = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.a.withConfig({
   displayName: "Header__HeaderContact",
   componentId: "sc-1bl1itl-2"
-})(["height:40px;font-size:1rem;font-weight:500;color:#fff;text-decoration:none;padding:0 24px;display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer;&::before{content:\"\";height:100%;width:100%;position:absolute;left:0;top:0;bottom:0;background:#9f9f9f;z-index:-1;}&::after{content:\"\";height:100%;width:100%;background:#0f0f0f;position:absolute;left:0;top:0;bottom:0;z-index:-1;transition:0.3s ease-out all;}&:hover::after{width:0;}"]);
+})(["height:40px;font-size:1rem;font-weight:500;color:#0f0f0f;text-decoration:none;padding:0 12px 0 24px;display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer;border:2px solid #0f0f0f;& i{transition:0.2s ease-out all;transform:translateX(0)}&:hover i{transform:translateX(4px);}"]);
 var MenuToggle = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
   displayName: "Header__MenuToggle",
   componentId: "sc-1bl1itl-3"
@@ -163,7 +163,9 @@ var Header = function Header(_ref) {
     passHref: true
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(HeaderContact, {
     className: "header__contact"
-  }, "Contact")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MenuToggle, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MenuToggleIcon, {
+  }, "Contact", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+    "class": "material-icons"
+  }, "chevron_right"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MenuToggle, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MenuToggleIcon, {
     open: open,
     onClick: function onClick() {
       return handleMenuToggle();
@@ -321,11 +323,11 @@ var ContactFormFieldset = __WEBPACK_IMPORTED_MODULE_1_styled_components___defaul
 var StyledSubmitWrapper = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
   displayName: "Contact__StyledSubmitWrapper",
   componentId: "sc-10vz4cd-5"
-})(["width:100%;height:56px;display:flex;align-items:center;justify-content:center;box-sizing:border-box;appearance:none;color:#0f0f0f;font-size:1.5rem;font-weight:400;position:relative;z-index:1;cursor:pointer;text-decoration:none;position:relative;&::before{content:\"\";height:100%;width:100%;position:absolute;left:0;top:0;bottom:0;background:#9f9f9f;z-index:-1;}&::after{content:\"\";height:100%;width:100%;background:#0f0f0f;position:absolute;left:0;top:0;bottom:0;z-index:-1;transition:0.3s ease-out all;}&:hover::after{width:0;}"]);
-var StyledSubmit = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.input.withConfig({
+})(["width:100%;height:56px;display:flex;align-items:center;justify-content:center;box-sizing:border-box;appearance:none;color:#0f0f0f;font-size:1.5rem;font-weight:400;position:relative;z-index:1;cursor:pointer;text-decoration:none;position:relative;"]);
+var StyledSubmit = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.button.withConfig({
   displayName: "Contact__StyledSubmit",
   componentId: "sc-10vz4cd-6"
-})(["position:absolute;width:100%;height:100%;top:0;right:0;bottom:0;left:0;display:flex;align-items:center;justify-content:center;appearance:none;border:0;background-image:none;background:transparent;color:#fff;font-size:1.25rem;font-weight:400;cursor:pointer;"]);
+})(["position:absolute;width:100%;height:100%;top:0;right:0;bottom:0;left:0;display:flex;align-items:center;justify-content:center;appearance:none;border:0;background-image:none;background:transparent;color:#0f0f0f;font-size:1.25rem;font-weight:400;cursor:pointer;border:2px solid #0f0f0f;& i{transition:0.2s ease-out all;transform:translateX(0);font-size:2.25rem;}&:hover i{transform:translateX(4px);}"]);
 
 var Contact =
 /*#__PURE__*/
@@ -463,10 +465,9 @@ function (_Component) {
             color: '#9f9f9f'
           })
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledSubmitWrapper, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledSubmit, {
-        type: "submit",
-        value: "Submit"
-      }))));
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledSubmitWrapper, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledSubmit, null, "Submit", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+        "class": "material-icons"
+      }, "chevron_right")))));
     }
   }]);
 

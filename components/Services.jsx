@@ -210,7 +210,7 @@ class Services extends Component {
             <ServicesCopy className="services__copy">
               In a foodie world, content is the meat and potatoes. Like a well-finished dish, great content has all the essentials. It begins with mise en place, prepared with a trained and enthusiastic eye, and presented in an approachable but intriguing way.
               <br/><br/>
-              Bland helps you create meaningful content that builds brands. With services from copywriting and public relations to menu consulting, we will always have something valuable to offer.
+              Bland helps you create meaningful content that builds brands. With services from copywriting and public relations to menu consulting and food photography, we will always have something valuable to offer.
             </ServicesCopy>
           </StyledServicesChanger>
           <StyledServicesChanger pose={this.state.service === "social" ? 'visible' : 'hidden'}>

@@ -117,7 +117,7 @@ const Header = ({handleMenuToggle, open}) => (
     <Link href="/contact" prefetch passHref>
       <HeaderContact className="header__contact">
         Contact
-        <i class="material-icons">
+        <i className="material-icons">
           chevron_right
         </i>
       </HeaderContact>

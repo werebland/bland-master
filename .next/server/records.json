@@ -1,0 +1,81 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "external \"react\"": 0,
+      "external \"styled-components\"": 1,
+      "external \"floating-label-react\"": 2,
+      "external \"next/link\"": 3,
+      "external \"react-pose\"": 4,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/Header.jsx": 5,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/Menu.jsx": 6,
+      "external \"next/head\"": 7,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/Contact.jsx": 8,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/Services.jsx": 9,
+      "external \"next/document\"": 10,
+      "external \"react-google-structured-data\"": 11,
+      "external \"react-responsive\"": 12,
+      "multi ./pages/_document.js": 13,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/_document.js": 14,
+      "multi ./pages/contact.js": 15,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/contact.js": 16,
+      "multi ./pages/index.js": 17,
+      "multi ./pages/services.js": 18,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/services.js": 19,
+      "multi node_modules/next/dist/pages/_app.js": 20,
+      "node_modules/next/dist/pages/_app.js": 21,
+      "external \"next/app\"": 22,
+      "multi node_modules/next/dist/pages/_error.js": 23,
+      "node_modules/next/dist/pages/_error.js": 24,
+      "external \"next/error\"": 25,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js d6ab54edf8c2fef0e4186d7292323cd7": 26
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23,
+      "24": 24,
+      "25": 25,
+      "26": 26
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/XldesNSmmByAv786BZ_wN/pages/_document.js": 0,
+      "static/XldesNSmmByAv786BZ_wN/pages/contact.js": 1,
+      "static/XldesNSmmByAv786BZ_wN/pages/index.js": 2,
+      "static/XldesNSmmByAv786BZ_wN/pages/services.js": 3,
+      "static/XldesNSmmByAv786BZ_wN/pages/_app.js": 4,
+      "static/XldesNSmmByAv786BZ_wN/pages/_error.js": 5
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

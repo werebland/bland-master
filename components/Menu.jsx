@@ -97,6 +97,9 @@ const Menu = ({ open }) => (
       <StyledMenuLink withParent>
         <a target="blank" href="https://instagram.com/werebland">Instagram</a>
       </StyledMenuLink>
+      <StyledMenuLink withParent>
+        <a target="blank" href="https://www.linkedin.com/company/werebland/">LinkedIn</a>
+      </StyledMenuLink>
     </MenuLinks>
     <Footer>
       Made with ❤️ in Halifax

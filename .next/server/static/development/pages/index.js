@@ -1291,6 +1291,30 @@ var FloatyButton = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.a.wi
   displayName: "pages__FloatyButton",
   componentId: "sc-1wbo52z-3"
 })(["width:100%;height:64px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.5rem;font-weight:400;position:relative;z-index:1;cursor:pointer;text-decoration:none;border:2px solid #fff;& i{transition:0.2s ease-out all;transform:translateX(0);font-size:2.5rem;}&:hover i{transform:translateX(4px);}"]);
+var Recent = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.section.withConfig({
+  displayName: "pages__Recent",
+  componentId: "sc-1wbo52z-4"
+})(["width:100vw;height:100%;min-height:100vh;display:flex;flex-flow:column nowrap;align-items:center;justify-content:flex-end;padding:72px;box-sizing:border-box;position:relative;@media all and (max-width:860px){padding:72px 48px;}@media all and (max-width:770px){flex-flow:column nowrap;align-items:flex-end;justify-content:flex-start;}@media all and (max-width:520px){padding:72px 0;}"]);
+var RecentBackground = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "pages__RecentBackground",
+  componentId: "sc-1wbo52z-5"
+})(["width:100%;height:100%;background:#0f0f0f;position:relative;padding:48px 0 48px 48px;box-sizing:border-box;display:flex;flex:1;flex-flow:column nowrap;@media all and (max-width:770px){padding:0 24px;}"]);
+var RecentCard = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.article.withConfig({
+  displayName: "pages__RecentCard",
+  componentId: "sc-1wbo52z-6"
+})(["height:100%;background:#fff;box-shadow:0 2px 16px -2px rgba(159,159,159,0.32);margin-bottom:48px;display:inline-flex;flex:1;align-items:center;justify-content:center;@media all and (max-width:770px){margin-bottom:0 24px;}"]);
+var RecentTitle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h3.withConfig({
+  displayName: "pages__RecentTitle",
+  componentId: "sc-1wbo52z-7"
+})(["font-size:2rem;font-weight:500;color:#fff;margin:0 0 24px 0;"]);
+var RecentImage = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "pages__RecentImage",
+  componentId: "sc-1wbo52z-8"
+})(["width:394px;height:182px;display:block;background-image:url(/static/bland-marketing-agency-client-rma.png);background-size:cover;background-position:center;"]);
+var RecentCopy = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.p.withConfig({
+  displayName: "pages__RecentCopy",
+  componentId: "sc-1wbo52z-9"
+})(["padding:0;margin:0;font-size:1.25rem;font-weight:300;color:#fff;margin:0;padding:0 48px 0 0;box-sizing:border-box;@media all and (max-width:770px){padding:0 24px 0 0;}& a{color:#fff;font-weight:500;text-decoration:none;}"]);
 
 var Index =
 /*#__PURE__*/
@@ -1318,26 +1342,26 @@ function (_Component) {
         open: this.state.menuVisible,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 178
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 179
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 180
         },
         __self: this
       }, "Bland | A Halifax Agency Creating Tasteful Presences")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Menu__WEBPACK_IMPORTED_MODULE_8__["default"], {
         open: this.state.menuVisible,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 182
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -1349,40 +1373,40 @@ function (_Component) {
         open: this.state.menuVisible,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 183
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_4___default.a, {
         query: "(min-width: 1160px)",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 184
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Contact__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 185
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_5__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 187
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Floaty, {
         className: "about",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 188
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FloatyContent, {
         className: "about__content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 189
         },
         __self: this
       }, "Bland is an agile marketing agency devoted to first impressions with a focus on the food and beverage industry. We sweat the details of content and identity to create tangible and expansive presences that capture customers and lead to real-world growth."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -1391,33 +1415,96 @@ function (_Component) {
         passHref: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 192
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FloatyButton, {
         className: "about__button",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 193
         },
         __self: this
       }, "See what Bland can do", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
         class: "material-icons",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 195
         },
         __self: this
       }, "chevron_right")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Why__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 201
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Services__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Recent, {
+        className: "recent",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 202
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentBackground, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 203
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentTitle, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 204
+        },
+        __self: this
+      }, "Bland No More"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentCard, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 207
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentImage, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 208
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentCopy, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 210
+        },
+        __self: this
+      }, "We worked closely with Dalhousie's ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://dalrma.com",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 211
+        },
+        __self: this
+      }, "Rowe Marketing Association"), " to breathe new life into a young marketing association. Bland embraced that youth and created a logo that was bold yet approachable, colorful but professional. In short, the perfect brand for a marketing association.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 212
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 212
+        },
+        __self: this
+      }), "We also got together with our friends at ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://platinumleadmarketing.com",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 213
+        },
+        __self: this
+      }, "Platinum Lead"), " to create an expansive website and social media revamp."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Services__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 217
         },
         __self: this
       }));

@@ -69,6 +69,101 @@ const FloatyButton = styled.a`
   }
 `;
 
+const Recent = styled.section`
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 72px;
+  box-sizing: border-box;
+  position: relative;
+
+  @media all and (max-width: 860px) {
+    padding: 72px 48px;
+  }
+
+  @media all and (max-width: 770px) {
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  @media all and (max-width: 520px) {
+    padding: 72px 0;
+  }
+`;
+
+const RecentBackground = styled.div`
+  width: 100%;
+  height: 100%;
+  background: #0f0f0f;
+  position: relative;
+  padding: 48px 0 48px 48px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+
+  @media all and (max-width: 770px) {
+    padding: 0 24px;
+  }
+`;
+
+const RecentCard = styled.article`
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 2px 16px -2px rgba(159,159,159,0.32);
+  margin-bottom: 48px;
+  display: inline-flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+
+  @media all and (max-width: 770px) {
+    margin-bottom: 0 24px;
+  }
+`;
+
+const RecentTitle = styled.h3`
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0 0 24px 0;
+`;
+
+const RecentImage = styled.div`
+  width: 394px;
+  height: 182px;
+  display: block;
+  background-image: url(/static/bland-marketing-agency-client-rma.png);
+  background-size: cover;
+  background-position: center;
+`;
+
+const RecentCopy = styled.p`
+  padding: 0;
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #fff;
+  margin: 0;
+  padding: 0 48px 0 0;
+  box-sizing: border-box;
+
+  @media all and (max-width: 770px) {
+    padding: 0 24px 0 0;
+  }
+
+  & a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+  }
+`;
+
 class Index extends Component {
 
   constructor(props) {
@@ -104,6 +199,21 @@ class Index extends Component {
           </Link>
         </Floaty>
         <Why />
+        <Recent className="recent">
+          <RecentBackground>
+            <RecentTitle>
+              Bland No More
+            </RecentTitle>
+            <RecentCard>
+              <RecentImage />
+            </RecentCard>
+            <RecentCopy>
+              We worked closely with Dalhousie's <a href="https://dalrma.com">Rowe Marketing Association</a> to breathe new life into a young marketing association. Bland embraced that youth and created a logo that was bold yet approachable, colorful but professional. In short, the perfect brand for a marketing association.
+              <br/><br/>
+              We also got together with our friends at <a href="https://platinumleadmarketing.com">Platinum Lead</a> to create an expansive website and social media revamp.
+            </RecentCopy>
+          </RecentBackground>
+        </Recent>
         <Services />
       </PageWrapper>
     );

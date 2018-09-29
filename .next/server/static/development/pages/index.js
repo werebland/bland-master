@@ -1236,12 +1236,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-responsive */ "react-responsive");
 /* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Hero */ "./components/Hero.jsx");
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Header */ "./components/Header.jsx");
-/* harmony import */ var _components_Why__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Why */ "./components/Why.jsx");
-/* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Menu */ "./components/Menu.jsx");
-/* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Contact */ "./components/Contact.jsx");
-/* harmony import */ var _components_Services__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Services */ "./components/Services.jsx");
+/* harmony import */ var react_driftjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-driftjs */ "react-driftjs");
+/* harmony import */ var react_driftjs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_driftjs__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Hero */ "./components/Hero.jsx");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Header */ "./components/Header.jsx");
+/* harmony import */ var _components_Why__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Why */ "./components/Why.jsx");
+/* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Menu */ "./components/Menu.jsx");
+/* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Contact */ "./components/Contact.jsx");
+/* harmony import */ var _components_Services__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Services */ "./components/Services.jsx");
 var _jsxFileName = "/Users/Chris/bland-ultra/pages/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -1261,6 +1263,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -1342,29 +1345,36 @@ function (_Component) {
         open: this.state.menuVisible,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 178
+          lineNumber: 179
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 179
+          lineNumber: 180
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 180
+          lineNumber: 181
         },
         __self: this
-      }, "Bland | A Halifax Agency Creating Tasteful Presences")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Menu__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, "Bland | A Halifax Agency Creating Tasteful Presences")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_driftjs__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        appId: "pz6ahcwgw3vh",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 183
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Menu__WEBPACK_IMPORTED_MODULE_9__["default"], {
         open: this.state.menuVisible,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 182
+          lineNumber: 184
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
         handleMenuToggle: function handleMenuToggle() {
           return _this2.setState({
             menuVisible: !_this2.state.menuVisible
@@ -1373,40 +1383,40 @@ function (_Component) {
         open: this.state.menuVisible,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 183
+          lineNumber: 185
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_4___default.a, {
         query: "(min-width: 1160px)",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 184
+          lineNumber: 186
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Contact__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 185
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Contact__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 187
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 189
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Floaty, {
         className: "about",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 188
+          lineNumber: 190
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FloatyContent, {
         className: "about__content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 189
+          lineNumber: 191
         },
         __self: this
       }, "Bland is an agile marketing agency devoted to first impressions with a focus on the food and beverage industry. We sweat the details of content and identity to create tangible and expansive presences that capture customers and lead to real-world growth."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -1415,96 +1425,96 @@ function (_Component) {
         passHref: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 192
+          lineNumber: 194
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FloatyButton, {
         className: "about__button",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 193
-        },
-        __self: this
-      }, "See what Bland can do", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        class: "material-icons",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 195
         },
         __self: this
-      }, "chevron_right")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Why__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }, "See what Bland can do", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "material-icons",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 201
+          lineNumber: 197
+        },
+        __self: this
+      }, "chevron_right")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Why__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 203
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Recent, {
         className: "recent",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 202
+          lineNumber: 204
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentBackground, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 203
+          lineNumber: 205
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentTitle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 204
+          lineNumber: 206
         },
         __self: this
       }, "Bland No More"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentCard, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 207
+          lineNumber: 209
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentImage, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 208
+          lineNumber: 210
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentCopy, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 210
+          lineNumber: 212
         },
         __self: this
       }, "We worked closely with Dalhousie's ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://dalrma.com",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 211
+          lineNumber: 213
         },
         __self: this
       }, "Rowe Marketing Association"), " to breathe new life into a young marketing association. Bland embraced that youth and created a logo that was bold yet approachable, colorful but professional. In short, the perfect brand for a marketing association.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 212
+          lineNumber: 214
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 212
+          lineNumber: 214
         },
         __self: this
       }), "We also got together with our friends at ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://platinumleadmarketing.com",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 213
+          lineNumber: 215
         },
         __self: this
-      }, "Platinum Lead"), " to create an expansive website and social media revamp."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Services__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }, "Platinum Lead"), " to create an expansive website and social media revamp."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Services__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 217
+          lineNumber: 219
         },
         __self: this
       }));
@@ -1571,6 +1581,17 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-driftjs":
+/*!********************************!*\
+  !*** external "react-driftjs" ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-driftjs");
 
 /***/ }),
 

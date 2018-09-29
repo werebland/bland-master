@@ -1,1704 +1,1704 @@
 {
-  "/Users/Chris/bland-ultra/react": [
+  "react": [
     {
       "id": 0,
       "name": "./node_modules/react/index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/styled-components": [
+  "styled-components": [
     {
       "id": 1,
       "name": "./node_modules/styled-components/dist/styled-components.es.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/_core": [
+  "../../modules/_core": [
     {
       "id": 2,
       "name": "./node_modules/core-js/library/modules/_core.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/prop-types": [
+  "prop-types": [
     {
       "id": 3,
       "name": "./node_modules/next/node_modules/prop-types/index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_export": [
+  "./_export": [
     {
       "id": 4,
       "name": "./node_modules/core-js/library/modules/_export.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_global": [
+  "./_global": [
     {
       "id": 5,
       "name": "./node_modules/core-js/library/modules/_global.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/interopRequireDefault": [
+  "@babel/runtime-corejs2/helpers/interopRequireDefault": [
     {
       "id": 6,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_wks": [
+  "./_wks": [
     {
       "id": 7,
       "name": "./node_modules/core-js/library/modules/_wks.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_is-object": [
+  "./_is-object": [
     {
       "id": 8,
       "name": "./node_modules/core-js/library/modules/_is-object.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/classCallCheck": [
+  "@babel/runtime-corejs2/helpers/classCallCheck": [
     {
       "id": 9,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/createClass": [
+  "@babel/runtime-corejs2/helpers/createClass": [
     {
       "id": 10,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/createClass.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-dp": [
+  "./_object-dp": [
     {
       "id": 11,
       "name": "./node_modules/core-js/library/modules/_object-dp.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_an-object": [
+  "./_an-object": [
     {
       "id": 12,
       "name": "./node_modules/core-js/library/modules/_an-object.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_descriptors": [
+  "./_descriptors": [
     {
       "id": 13,
       "name": "./node_modules/core-js/library/modules/_descriptors.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_ctx": [
+  "./_ctx": [
     {
       "id": 14,
       "name": "./node_modules/core-js/library/modules/_ctx.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/defineProperty": [
+  "@babel/runtime-corejs2/helpers/defineProperty": [
     {
       "id": 15,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/defineProperty.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_fails": [
+  "./_fails": [
     {
       "id": 16,
       "name": "./node_modules/core-js/library/modules/_fails.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_hide": [
+  "./_hide": [
     {
       "id": 17,
       "name": "./node_modules/core-js/library/modules/_hide.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/possibleConstructorReturn": [
+  "@babel/runtime-corejs2/helpers/possibleConstructorReturn": [
     {
       "id": 18,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/getPrototypeOf": [
+  "@babel/runtime-corejs2/helpers/getPrototypeOf": [
     {
       "id": 19,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/inherits": [
+  "@babel/runtime-corejs2/helpers/inherits": [
     {
       "id": 20,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/inherits.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/next/link": [
+  "next/link": [
     {
       "id": 21,
       "name": "./node_modules/next/link.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/interopRequireWildcard": [
+  "@babel/runtime-corejs2/helpers/interopRequireWildcard": [
     {
       "id": 22,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_to-iobject": [
+  "./_to-iobject": [
     {
       "id": 23,
       "name": "./node_modules/core-js/library/modules/_to-iobject.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_has": [
+  "./_has": [
     {
       "id": 24,
       "name": "./node_modules/core-js/library/modules/_has.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_a-function": [
+  "./_a-function": [
     {
       "id": 25,
       "name": "./node_modules/core-js/library/modules/_a-function.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/lib/utils": [
+  "../lib/utils": [
     {
       "id": 26,
       "name": "./node_modules/next/dist/lib/utils.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/react-pose": [
+  "react-pose": [
     {
       "id": 27,
       "name": "./node_modules/react-pose/dist/react-pose.es.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_to-object": [
+  "./_to-object": [
     {
       "id": 28,
       "name": "./node_modules/core-js/library/modules/_to-object.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/core-js/promise": [
+  "@babel/runtime-corejs2/core-js/promise": [
     {
       "id": 29,
       "name": "./node_modules/@babel/runtime-corejs2/core-js/promise.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/es6.string.iterator": [
+  "../modules/es6.string.iterator": [
     {
       "id": 30,
       "name": "./node_modules/core-js/library/modules/es6.string.iterator.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_iterators": [
+  "./_iterators": [
     {
       "id": 31,
       "name": "./node_modules/core-js/library/modules/_iterators.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/components/Header": [
+  "../components/Header": [
     {
       "id": 32,
       "name": "./components/Header.jsx",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/components/Menu": [
+  "../components/Menu": [
     {
       "id": 33,
       "name": "./components/Menu.jsx",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/next/head": [
+  "next/head": [
     {
       "id": 34,
       "name": "./node_modules/next/head.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_cof": [
+  "./_cof": [
     {
       "id": 35,
       "name": "./node_modules/core-js/library/modules/_cof.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_property-desc": [
+  "./_property-desc": [
     {
       "id": 36,
       "name": "./node_modules/core-js/library/modules/_property-desc.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/objectSpread": [
+  "@babel/runtime-corejs2/helpers/objectSpread": [
     {
       "id": 37,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/objectSpread.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_library": [
+  "./_library": [
     {
       "id": 38,
       "name": "./node_modules/core-js/library/modules/_library.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_set-to-string-tag": [
+  "./_set-to-string-tag": [
     {
       "id": 39,
       "name": "./node_modules/core-js/library/modules/_set-to-string-tag.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-keys": [
+  "./_object-keys": [
     {
       "id": 40,
       "name": "./node_modules/core-js/library/modules/_object-keys.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-create": [
+  "./_object-create": [
     {
       "id": 41,
       "name": "./node_modules/core-js/library/modules/_object-create.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/web.dom.iterable": [
+  "../modules/web.dom.iterable": [
     {
       "id": 42,
       "name": "./node_modules/core-js/library/modules/web.dom.iterable.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_for-of": [
+  "./_for-of": [
     {
       "id": 43,
       "name": "./node_modules/core-js/library/modules/_for-of.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-pie": [
+  "./_object-pie": [
     {
       "id": 46,
       "name": "./node_modules/core-js/library/modules/_object-pie.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/object/define-property": [
+  "../core-js/object/define-property": [
     {
       "id": 47,
       "name": "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_uid": [
+  "./_uid": [
     {
       "id": 48,
       "name": "./node_modules/core-js/library/modules/_uid.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_to-length": [
+  "./_to-length": [
     {
       "id": 49,
       "name": "./node_modules/core-js/library/modules/_to-length.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/regenerator": [
+  "@babel/runtime-corejs2/regenerator": [
     {
       "id": 50,
       "name": "./node_modules/@babel/runtime-corejs2/regenerator/index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/asyncToGenerator": [
+  "@babel/runtime-corejs2/helpers/asyncToGenerator": [
     {
       "id": 51,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/asyncToGenerator.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_classof": [
+  "./_classof": [
     {
       "id": 52,
       "name": "./node_modules/core-js/library/modules/_classof.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/lib/router": [
+  "../lib/router": [
     {
       "id": 53,
       "name": "./node_modules/next/dist/lib/router/index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/helpers/typeof": [
+  "../helpers/typeof": [
     {
       "id": 54,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/typeof.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/core-js/set": [
+  "@babel/runtime-corejs2/core-js/set": [
     {
       "id": 55,
       "name": "./node_modules/@babel/runtime-corejs2/core-js/set.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/core-js/object/assign": [
+  "@babel/runtime-corejs2/core-js/object/assign": [
     {
       "id": 56,
       "name": "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/assertThisInitialized": [
+  "@babel/runtime-corejs2/helpers/assertThisInitialized": [
     {
       "id": 57,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/is-plain-object": [
+  "is-plain-object": [
     {
       "id": 58,
       "name": "./node_modules/is-plain-object/index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_iobject": [
+  "./_iobject": [
     {
       "id": 59,
       "name": "./node_modules/core-js/library/modules/_iobject.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_defined": [
+  "./_defined": [
     {
       "id": 60,
       "name": "./node_modules/core-js/library/modules/_defined.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-gopd": [
+  "./_object-gopd": [
     {
       "id": 61,
       "name": "./node_modules/core-js/library/modules/_object-gopd.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_to-primitive": [
+  "./_to-primitive": [
     {
       "id": 62,
       "name": "./node_modules/core-js/library/modules/_to-primitive.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_dom-create": [
+  "./_dom-create": [
     {
       "id": 63,
       "name": "./node_modules/core-js/library/modules/_dom-create.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-sap": [
+  "./_object-sap": [
     {
       "id": 64,
       "name": "./node_modules/core-js/library/modules/_object-sap.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_meta": [
+  "./_meta": [
     {
       "id": 65,
       "name": "./node_modules/core-js/library/modules/_meta.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_shared": [
+  "./_shared": [
     {
       "id": 66,
       "name": "./node_modules/core-js/library/modules/_shared.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_wks-ext": [
+  "./_wks-ext": [
     {
       "id": 67,
       "name": "./node_modules/core-js/library/modules/_wks-ext.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_wks-define": [
+  "./_wks-define": [
     {
       "id": 68,
       "name": "./node_modules/core-js/library/modules/_wks-define.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_to-integer": [
+  "./_to-integer": [
     {
       "id": 69,
       "name": "./node_modules/core-js/library/modules/_to-integer.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_shared-key": [
+  "./_shared-key": [
     {
       "id": 70,
       "name": "./node_modules/core-js/library/modules/_shared-key.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_enum-bug-keys": [
+  "./_enum-bug-keys": [
     {
       "id": 71,
       "name": "./node_modules/core-js/library/modules/_enum-bug-keys.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-gops": [
+  "./_object-gops": [
     {
       "id": 72,
       "name": "./node_modules/core-js/library/modules/_object-gops.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_is-array": [
+  "./_is-array": [
     {
       "id": 73,
       "name": "./node_modules/core-js/library/modules/_is-array.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/es6.object.to-string": [
+  "../modules/es6.object.to-string": [
     {
       "id": 74,
       "name": "./node_modules/core-js/library/modules/es6.object.to-string.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_iter-define": [
+  "./_iter-define": [
     {
       "id": 75,
       "name": "./node_modules/core-js/library/modules/_iter-define.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_an-instance": [
+  "./_an-instance": [
     {
       "id": 76,
       "name": "./node_modules/core-js/library/modules/_an-instance.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core.get-iterator-method": [
+  "./core.get-iterator-method": [
     {
       "id": 77,
       "name": "./node_modules/core-js/library/modules/core.get-iterator-method.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_new-promise-capability": [
+  "./_new-promise-capability": [
     {
       "id": 78,
       "name": "./node_modules/core-js/library/modules/_new-promise-capability.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_redefine-all": [
+  "./_redefine-all": [
     {
       "id": 79,
       "name": "./node_modules/core-js/library/modules/_redefine-all.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/slicedToArray": [
+  "@babel/runtime-corejs2/helpers/slicedToArray": [
     {
       "id": 80,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/core-js/array/is-array": [
+  "@babel/runtime-corejs2/core-js/array/is-array": [
     {
       "id": 81,
       "name": "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/lib/EventEmitter": [
+  "../lib/EventEmitter": [
     {
       "id": 82,
       "name": "./node_modules/next/dist/lib/EventEmitter.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/object/get-own-property-descriptor": [
+  "../core-js/object/get-own-property-descriptor": [
     {
       "id": 83,
       "name": "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_ie8-dom-define": [
+  "./_ie8-dom-define": [
     {
       "id": 84,
       "name": "./node_modules/core-js/library/modules/_ie8-dom-define.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es6.symbol": [
+  "../../modules/es6.symbol": [
     {
       "id": 85,
       "name": "./node_modules/core-js/library/modules/es6.symbol.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_redefine": [
+  "./_redefine": [
     {
       "id": 86,
       "name": "./node_modules/core-js/library/modules/_redefine.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-keys-internal": [
+  "./_object-keys-internal": [
     {
       "id": 87,
       "name": "./node_modules/core-js/library/modules/_object-keys-internal.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_html": [
+  "./_html": [
     {
       "id": 88,
       "name": "./node_modules/core-js/library/modules/_html.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-gopn": [
+  "./_object-gopn": [
     {
       "id": 89,
       "name": "./node_modules/core-js/library/modules/_object-gopn.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/object/keys": [
+  "../core-js/object/keys": [
     {
       "id": 90,
       "name": "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-gpo": [
+  "./_object-gpo": [
     {
       "id": 91,
       "name": "./node_modules/core-js/library/modules/_object-gpo.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_iter-step": [
+  "./_iter-step": [
     {
       "id": 92,
       "name": "./node_modules/core-js/library/modules/_iter-step.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_iter-call": [
+  "./_iter-call": [
     {
       "id": 93,
       "name": "./node_modules/core-js/library/modules/_iter-call.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_is-array-iter": [
+  "./_is-array-iter": [
     {
       "id": 94,
       "name": "./node_modules/core-js/library/modules/_is-array-iter.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_species-constructor": [
+  "./_species-constructor": [
     {
       "id": 95,
       "name": "./node_modules/core-js/library/modules/_species-constructor.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_task": [
+  "./_task": [
     {
       "id": 96,
       "name": "./node_modules/core-js/library/modules/_task.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_invoke": [
+  "./_invoke": [
     {
       "id": 97,
       "name": "./node_modules/core-js/library/modules/_invoke.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_perform": [
+  "./_perform": [
     {
       "id": 98,
       "name": "./node_modules/core-js/library/modules/_perform.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_promise-resolve": [
+  "./_promise-resolve": [
     {
       "id": 99,
       "name": "./node_modules/core-js/library/modules/_promise-resolve.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_set-species": [
+  "./_set-species": [
     {
       "id": 100,
       "name": "./node_modules/core-js/library/modules/_set-species.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_iter-detect": [
+  "./_iter-detect": [
     {
       "id": 101,
       "name": "./node_modules/core-js/library/modules/_iter-detect.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/object-assign": [
+  "object-assign": [
     {
       "id": 102,
       "name": "./node_modules/object-assign/index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/setPrototypeOf": [
+  "./setPrototypeOf": [
     {
       "id": 103,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/object/set-prototype-of": [
+  "../core-js/object/set-prototype-of": [
     {
       "id": 104,
       "name": "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_validate-collection": [
+  "./_validate-collection": [
     {
       "id": 105,
       "name": "./node_modules/core-js/library/modules/_validate-collection.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/url": [
+  "url": [
     {
       "id": 106,
       "name": "./node_modules/url/url.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/webpack/buildin/module.js": [
+  "./../../../webpack/buildin/module.js": [
     {
       "id": 107,
       "name": "./node_modules/webpack/buildin/module.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/shallow-equals": [
+  "./shallow-equals": [
     {
       "id": 108,
       "name": "./node_modules/next/dist/lib/shallow-equals.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/head": [
+  "./head": [
     {
       "id": 109,
       "name": "./node_modules/next/dist/lib/head.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/stylis": [
+  "stylis": [
     {
       "id": 110,
       "name": "./node_modules/stylis/stylis.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/hoist-non-react-statics": [
+  "hoist-non-react-statics": [
     {
       "id": 111,
       "name": "./node_modules/styled-components/node_modules/hoist-non-react-statics/index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     },
     {
-      "id": 204,
+      "id": 205,
       "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/object/get-own-property-descriptor": [
-    {
-      "id": 115,
-      "name": "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
-    }
-  ],
-  "/Users/modules/es6.object.get-own-property-descriptor": [
+  "core-js/library/fn/object/get-own-property-descriptor": [
     {
       "id": 116,
-      "name": "./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/object/define-property": [
+  "../../modules/es6.object.get-own-property-descriptor": [
     {
       "id": 117,
-      "name": "./node_modules/core-js/library/fn/object/define-property.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es6.object.define-property": [
+  "core-js/library/fn/object/define-property": [
     {
       "id": 118,
-      "name": "./node_modules/core-js/library/modules/es6.object.define-property.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/object/define-property.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/object/get-own-property-symbols": [
+  "../../modules/es6.object.define-property": [
     {
-      "id": 120,
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "id": 119,
+      "name": "./node_modules/core-js/library/modules/es6.object.define-property.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/object/get-own-property-symbols": [
+  "../core-js/object/get-own-property-symbols": [
     {
       "id": 121,
-      "name": "./node_modules/core-js/library/fn/object/get-own-property-symbols.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_enum-keys": [
+  "core-js/library/fn/object/get-own-property-symbols": [
     {
       "id": 122,
-      "name": "./node_modules/core-js/library/modules/_enum-keys.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/object/get-own-property-symbols.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_array-includes": [
+  "./_enum-keys": [
     {
       "id": 123,
-      "name": "./node_modules/core-js/library/modules/_array-includes.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_enum-keys.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_to-absolute-index": [
+  "./_array-includes": [
     {
       "id": 124,
-      "name": "./node_modules/core-js/library/modules/_to-absolute-index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_array-includes.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-dps": [
+  "./_to-absolute-index": [
     {
       "id": 125,
-      "name": "./node_modules/core-js/library/modules/_object-dps.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_to-absolute-index.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-gopn-ext": [
+  "./_object-dps": [
     {
       "id": 126,
-      "name": "./node_modules/core-js/library/modules/_object-gopn-ext.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_object-dps.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/object/keys": [
+  "./_object-gopn-ext": [
     {
       "id": 127,
-      "name": "./node_modules/core-js/library/fn/object/keys.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_object-gopn-ext.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es6.object.keys": [
+  "core-js/library/fn/object/keys": [
     {
       "id": 128,
-      "name": "./node_modules/core-js/library/modules/es6.object.keys.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/object/keys.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/regenerator-runtime": [
+  "../../modules/es6.object.keys": [
     {
       "id": 129,
-      "name": "./node_modules/regenerator-runtime/runtime-module.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.object.keys.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/runtime": [
+  "regenerator-runtime": [
     {
       "id": 130,
-      "name": "./node_modules/regenerator-runtime/runtime.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/regenerator-runtime/runtime-module.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/promise": [
+  "./runtime": [
     {
       "id": 131,
-      "name": "./node_modules/core-js/library/fn/promise.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/regenerator-runtime/runtime.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_string-at": [
+  "core-js/library/fn/promise": [
     {
       "id": 132,
-      "name": "./node_modules/core-js/library/modules/_string-at.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/promise.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_iter-create": [
+  "./_string-at": [
     {
       "id": 133,
-      "name": "./node_modules/core-js/library/modules/_iter-create.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_string-at.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/es6.array.iterator": [
+  "./_iter-create": [
     {
       "id": 134,
-      "name": "./node_modules/core-js/library/modules/es6.array.iterator.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_iter-create.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_add-to-unscopables": [
+  "./es6.array.iterator": [
     {
       "id": 135,
-      "name": "./node_modules/core-js/library/modules/_add-to-unscopables.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.array.iterator.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/es6.promise": [
+  "./_add-to-unscopables": [
     {
       "id": 136,
-      "name": "./node_modules/core-js/library/modules/es6.promise.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_add-to-unscopables.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_microtask": [
+  "../modules/es6.promise": [
     {
       "id": 137,
-      "name": "./node_modules/core-js/library/modules/_microtask.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.promise.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_user-agent": [
+  "./_microtask": [
     {
       "id": 138,
-      "name": "./node_modules/core-js/library/modules/_user-agent.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_microtask.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/es7.promise.finally": [
+  "./_user-agent": [
     {
       "id": 139,
-      "name": "./node_modules/core-js/library/modules/es7.promise.finally.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_user-agent.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/es7.promise.try": [
+  "../modules/es7.promise.finally": [
     {
       "id": 140,
-      "name": "./node_modules/core-js/library/modules/es7.promise.try.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es7.promise.finally.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/arrayWithHoles": [
+  "../modules/es7.promise.try": [
     {
       "id": 141,
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/arrayWithHoles.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es7.promise.try.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/array/is-array": [
+  "./arrayWithHoles": [
     {
       "id": 142,
-      "name": "./node_modules/core-js/library/fn/array/is-array.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/arrayWithHoles.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es6.array.is-array": [
+  "core-js/library/fn/array/is-array": [
     {
       "id": 143,
-      "name": "./node_modules/core-js/library/modules/es6.array.is-array.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/array/is-array.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/iterableToArrayLimit": [
+  "../../modules/es6.array.is-array": [
     {
       "id": 144,
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/iterableToArrayLimit.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.array.is-array.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/get-iterator": [
+  "./iterableToArrayLimit": [
     {
       "id": 145,
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/iterableToArrayLimit.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/get-iterator": [
+  "../core-js/get-iterator": [
     {
       "id": 146,
-      "name": "./node_modules/core-js/library/fn/get-iterator.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/core.get-iterator": [
+  "core-js/library/fn/get-iterator": [
     {
       "id": 147,
-      "name": "./node_modules/core-js/library/modules/core.get-iterator.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/get-iterator.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/nonIterableRest": [
+  "../modules/core.get-iterator": [
     {
       "id": 148,
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/nonIterableRest.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/core.get-iterator.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/cjs/react.production.min.js": [
+  "./nonIterableRest": [
     {
       "id": 149,
-      "name": "./node_modules/react/cjs/react.production.min.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/nonIterableRest.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/react-dom": [
+  "./cjs/react.production.min.js": [
     {
       "id": 150,
-      "name": "./node_modules/react-dom/index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/cjs/react-dom.production.min.js": [
+  "react-dom": [
     {
       "id": 151,
-      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/react-dom/index.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/symbol/iterator": [
+  "./cjs/react-dom.production.min.js": [
     {
-      "id": 155,
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "id": 152,
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/symbol/iterator": [
+  "../core-js/symbol/iterator": [
     {
       "id": 156,
-      "name": "./node_modules/core-js/library/fn/symbol/iterator.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/symbol": [
+  "core-js/library/fn/symbol/iterator": [
     {
       "id": 157,
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/symbol.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/symbol/iterator.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/symbol": [
+  "../core-js/symbol": [
     {
       "id": 158,
-      "name": "./node_modules/core-js/library/fn/symbol/index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/symbol.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es7.symbol.async-iterator": [
+  "core-js/library/fn/symbol": [
     {
       "id": 159,
-      "name": "./node_modules/core-js/library/modules/es7.symbol.async-iterator.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/symbol/index.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es7.symbol.observable": [
+  "../../modules/es7.symbol.async-iterator": [
     {
       "id": 160,
-      "name": "./node_modules/core-js/library/modules/es7.symbol.observable.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es7.symbol.async-iterator.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/construct": [
+  "../../modules/es7.symbol.observable": [
     {
       "id": 161,
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/construct.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es7.symbol.observable.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/reflect/construct": [
+  "@babel/runtime-corejs2/helpers/construct": [
     {
       "id": 162,
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/reflect/construct.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/construct.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/reflect/construct": [
+  "../core-js/reflect/construct": [
     {
       "id": 163,
-      "name": "./node_modules/core-js/library/fn/reflect/construct.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/reflect/construct.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es6.reflect.construct": [
+  "core-js/library/fn/reflect/construct": [
     {
       "id": 164,
-      "name": "./node_modules/core-js/library/modules/es6.reflect.construct.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/reflect/construct.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_bind": [
+  "../../modules/es6.reflect.construct": [
     {
       "id": 165,
-      "name": "./node_modules/core-js/library/modules/_bind.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.reflect.construct.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/object/set-prototype-of": [
+  "./_bind": [
     {
       "id": 166,
-      "name": "./node_modules/core-js/library/fn/object/set-prototype-of.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_bind.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es6.object.set-prototype-of": [
+  "core-js/library/fn/object/set-prototype-of": [
     {
       "id": 167,
-      "name": "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/object/set-prototype-of.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_set-proto": [
+  "../../modules/es6.object.set-prototype-of": [
     {
       "id": 168,
-      "name": "./node_modules/core-js/library/modules/_set-proto.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/router": [
+  "./_set-proto": [
     {
       "id": 169,
-      "name": "./node_modules/next/dist/lib/router/router.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_set-proto.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/set": [
+  "./router": [
     {
       "id": 170,
-      "name": "./node_modules/core-js/library/fn/set.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/next/dist/lib/router/router.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/es6.set": [
+  "core-js/library/fn/set": [
     {
       "id": 171,
-      "name": "./node_modules/core-js/library/modules/es6.set.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/set.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_collection-strong": [
+  "../modules/es6.set": [
     {
       "id": 172,
-      "name": "./node_modules/core-js/library/modules/_collection-strong.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.set.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_collection": [
+  "./_collection-strong": [
     {
       "id": 173,
-      "name": "./node_modules/core-js/library/modules/_collection.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_collection-strong.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_array-methods": [
+  "./_collection": [
     {
       "id": 174,
-      "name": "./node_modules/core-js/library/modules/_array-methods.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_collection.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_array-species-create": [
+  "./_array-methods": [
     {
       "id": 175,
-      "name": "./node_modules/core-js/library/modules/_array-species-create.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_array-methods.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_array-species-constructor": [
+  "./_array-species-create": [
     {
       "id": 176,
-      "name": "./node_modules/core-js/library/modules/_array-species-constructor.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_array-species-create.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/es7.set.to-json": [
+  "./_array-species-constructor": [
     {
       "id": 177,
-      "name": "./node_modules/core-js/library/modules/es7.set.to-json.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_array-species-constructor.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_collection-to-json": [
+  "../modules/es7.set.to-json": [
     {
       "id": 178,
-      "name": "./node_modules/core-js/library/modules/_collection-to-json.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es7.set.to-json.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_array-from-iterable": [
+  "./_collection-to-json": [
     {
       "id": 179,
-      "name": "./node_modules/core-js/library/modules/_array-from-iterable.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_collection-to-json.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/es7.set.of": [
+  "./_array-from-iterable": [
     {
       "id": 180,
-      "name": "./node_modules/core-js/library/modules/es7.set.of.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_array-from-iterable.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_set-collection-of": [
+  "../modules/es7.set.of": [
     {
       "id": 181,
-      "name": "./node_modules/core-js/library/modules/_set-collection-of.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es7.set.of.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/es7.set.from": [
+  "./_set-collection-of": [
     {
       "id": 182,
-      "name": "./node_modules/core-js/library/modules/es7.set.from.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_set-collection-of.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_set-collection-from": [
+  "../modules/es7.set.from": [
     {
       "id": 183,
-      "name": "./node_modules/core-js/library/modules/_set-collection-from.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es7.set.from.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/punycode": [
+  "./_set-collection-from": [
     {
       "id": 184,
-      "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_set-collection-from.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/webpack/buildin/global.js": [
+  "punycode": [
     {
       "id": 185,
-      "name": "./node_modules/webpack/buildin/global.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/util": [
+  "./../../../webpack/buildin/global.js": [
     {
       "id": 186,
-      "name": "./node_modules/url/util.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/querystring": [
+  "./util": [
     {
       "id": 187,
-      "name": "./node_modules/querystring-es3/index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/url/util.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/decode": [
+  "querystring": [
     {
       "id": 188,
-      "name": "./node_modules/querystring-es3/decode.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/querystring-es3/index.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/encode": [
+  "./decode": [
     {
       "id": 189,
-      "name": "./node_modules/querystring-es3/encode.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/querystring-es3/decode.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/p-queue": [
+  "./encode": [
     {
       "id": 190,
-      "name": "./node_modules/next/dist/lib/p-queue.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/querystring-es3/encode.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/object/assign": [
+  "../p-queue": [
     {
       "id": 191,
-      "name": "./node_modules/core-js/library/fn/object/assign.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/next/dist/lib/p-queue.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es6.object.assign": [
+  "core-js/library/fn/object/assign": [
     {
       "id": 192,
-      "name": "./node_modules/core-js/library/modules/es6.object.assign.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/object/assign.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_object-assign": [
+  "../../modules/es6.object.assign": [
     {
       "id": 193,
-      "name": "./node_modules/core-js/library/modules/_object-assign.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.object.assign.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/process/browser.js": [
+  "./_object-assign": [
     {
       "id": 194,
-      "name": "./node_modules/process/browser.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_object-assign.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/with-router": [
+  "./../../../process/browser.js": [
     {
       "id": 195,
-      "name": "./node_modules/next/dist/lib/router/with-router.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/process/browser.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/object/get-prototype-of": [
+  "./with-router": [
     {
       "id": 196,
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/next/dist/lib/router/with-router.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/object/get-prototype-of": [
+  "../core-js/object/get-prototype-of": [
     {
       "id": 197,
-      "name": "./node_modules/core-js/library/fn/object/get-prototype-of.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es6.object.get-prototype-of": [
+  "core-js/library/fn/object/get-prototype-of": [
     {
       "id": 198,
-      "name": "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/object/get-prototype-of.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/object/create": [
+  "../../modules/es6.object.get-prototype-of": [
     {
       "id": 199,
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/create.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/object/create": [
+  "../core-js/object/create": [
     {
       "id": 200,
-      "name": "./node_modules/core-js/library/fn/object/create.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/create.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es6.object.create": [
+  "core-js/library/fn/object/create": [
     {
       "id": 201,
-      "name": "./node_modules/core-js/library/modules/es6.object.create.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/object/create.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/factoryWithThrowingShims": [
+  "../../modules/es6.object.create": [
     {
       "id": 202,
-      "name": "./node_modules/next/node_modules/prop-types/factoryWithThrowingShims.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.object.create.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/lib/ReactPropTypesSecret": [
+  "./factoryWithThrowingShims": [
     {
       "id": 203,
-      "name": "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/next/node_modules/prop-types/factoryWithThrowingShims.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/webpack/buildin/harmony-module.js": [
+  "./lib/ReactPropTypesSecret": [
     {
-      "id": 212,
-      "name": "./node_modules/webpack/buildin/harmony-module.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "id": 204,
+      "name": "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/isobject": [
+  "./../../webpack/buildin/harmony-module.js": [
     {
       "id": 213,
-      "name": "./node_modules/is-plain-object/node_modules/isobject/index.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/webpack/buildin/harmony-module.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/dist/lib/link": [
+  "isobject": [
     {
       "id": 214,
-      "name": "./node_modules/next/dist/lib/link.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/is-plain-object/node_modules/isobject/index.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/core-js/json/stringify": [
+  "./dist/lib/link": [
     {
       "id": 215,
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/next/dist/lib/link.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/json/stringify": [
+  "@babel/runtime-corejs2/core-js/json/stringify": [
     {
       "id": 216,
-      "name": "./node_modules/core-js/library/fn/json/stringify.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/side-effect": [
+  "core-js/library/fn/json/stringify": [
     {
       "id": 217,
-      "name": "./node_modules/next/dist/lib/side-effect.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/json/stringify.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/@babel/runtime-corejs2/helpers/toConsumableArray": [
+  "./side-effect": [
     {
       "id": 218,
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/next/dist/lib/side-effect.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/arrayWithoutHoles": [
+  "@babel/runtime-corejs2/helpers/toConsumableArray": [
     {
       "id": 219,
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/iterableToArray": [
+  "./arrayWithoutHoles": [
     {
       "id": 220,
-      "name": "./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/array/from": [
+  "./iterableToArray": [
     {
       "id": 221,
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/array/from.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/array/from": [
+  "../core-js/array/from": [
     {
       "id": 222,
-      "name": "./node_modules/core-js/library/fn/array/from.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/array/from.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/modules/es6.array.from": [
+  "core-js/library/fn/array/from": [
     {
       "id": 223,
-      "name": "./node_modules/core-js/library/modules/es6.array.from.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/array/from.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/_create-property": [
+  "../../modules/es6.array.from": [
     {
       "id": 224,
-      "name": "./node_modules/core-js/library/modules/_create-property.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/es6.array.from.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/core-js/is-iterable": [
+  "./_create-property": [
     {
       "id": 225,
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/modules/_create-property.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/core-js/library/fn/is-iterable": [
+  "../core-js/is-iterable": [
     {
       "id": 226,
-      "name": "./node_modules/core-js/library/fn/is-iterable.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/modules/core.is-iterable": [
+  "core-js/library/fn/is-iterable": [
     {
       "id": 227,
-      "name": "./node_modules/core-js/library/modules/core.is-iterable.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "name": "./node_modules/core-js/library/fn/is-iterable.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ],
-  "/Users/Chris/bland-ultra/nonIterableSpread": [
+  "../modules/core.is-iterable": [
     {
       "id": 228,
+      "name": "./node_modules/core-js/library/modules/core.is-iterable.js",
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
+    }
+  ],
+  "./nonIterableSpread": [
+    {
+      "id": 229,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js",
-      "file": "static/chunks/commons.7f6ef8a1c2bde364646d.js",
-      "publicPath": "static/chunks/commons.7f6ef8a1c2bde364646d.js"
+      "file": "static/chunks/commons.07a3318d923222ca491e.js",
+      "publicPath": "static/chunks/commons.07a3318d923222ca491e.js"
     }
   ]
 }

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Link from 'next/link'
 import Head from 'next/head'
 import MediaQuery from 'react-responsive';
+import Drift from 'react-driftjs'
 import Hero from '../components/Hero'
 import Header from '../components/Header'
 import Why from '../components/Why'
@@ -179,6 +180,7 @@ class Index extends Component {
         <Head>
           <title>Bland | A Halifax Agency Creating Tasteful Presences</title>
         </Head>
+        <Drift appId="pz6ahcwgw3vh" />
         <Menu open={this.state.menuVisible}/>
         <Header handleMenuToggle={() => this.setState({ menuVisible: !this.state.menuVisible})} open={this.state.menuVisible}/>
         <MediaQuery query="(min-width: 1160px)">
@@ -192,7 +194,7 @@ class Index extends Component {
           <Link href="/services" prefetch passHref>
             <FloatyButton  className="about__button">
               See what Bland can do
-              <i class="material-icons">
+              <i className="material-icons">
                 chevron_right
               </i>
             </FloatyButton>

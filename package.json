@@ -1,5 +1,5 @@
 {
-  "name": "with-styled-components",
+  "name": "bland",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -12,6 +12,7 @@
     "next": "^7.0.0",
     "react": "16.5.0",
     "react-dom": "16.5.0",
+    "react-driftjs": "^1.1.4",
     "react-google-structured-data": "^3.0.0",
     "react-pose": "^3.3.0",
     "react-responsive": "^5.0.0",
